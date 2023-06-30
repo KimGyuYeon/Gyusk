@@ -1,0 +1,3990 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>SKT_e요금안내서</title>
+  <meta name="author" content="SK TELECOM" />
+  <meta name="keyword" content="SK TELECOM" />
+    <style>
+			@charset "utf-8";
+			@font-face {
+				font-family: 'dotum';
+				src: local('apple SD Gothic Neo');
+			}
+			@font-face {
+				font-family: 'TSansBetaTTFRegular';
+				src:url("https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/font/TSans_Beta/Webfonts/woff2/TSansBetaTTFRegular.woff2");
+				src: local('@')
+					url('https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/font/TSans_Beta/Webfonts/woff2/TSansBetaTTFRegular.woff2') format('woff2'),
+					url('https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/font/TSans_Beta/Webfonts/woff/TSansBetaTTFRegular.woff') format('woff'), /* 표준 브라우저 */
+					url('https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/font/TSans_Beta/Webfonts/eot/TSansBetaTTFRegular.eot?#iefix'), format('embedded-opentype'), /* IE 6~8 */
+					url('https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/font/TSans_Beta/OTF/TSansBetaRegular.otf'), format('opentype'), /* 230417 explorer 폰트 적용 */
+					url('https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/font/TSans_Beta/TTF/TSansBetaTTFRegular.ttf') format('truetype');
+				font-weight: normal;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: 'TSansBetaTTFBold';
+				src:url("https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/font/TSans_Beta/Webfonts/woff2/TSansBetaTTFBold.woff2");
+				src: local('@')
+					url('https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/font/TSans_Beta/Webfonts/woff2/TSansBetaTTFBold.woff2') format('woff2'),
+					url('https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/font/TSans_Beta/Webfonts/woff/TSansBetaTTFBold.woff') format('woff'), /* 표준 브라우저 */
+					url('https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/font/TSans_Beta/Webfonts/eot/TSansBetaTTFBold.eot?#iefix'), format('embedded-opentype'), /* IE 6~8 */
+					url('https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/font/TSans_Beta/OTF/TSansBetaBold.otf'), format('opentype'), /* 230417 explorer 폰트 적용 */
+					url('https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/font/TSans_Beta/TTF/TSansBetaTTFBold.ttf') format('truetype');
+				font-weight: bold;
+				font-style: normal;
+			}
+			/* ---------------------------------------- default ----------------------------------------------- */
+			body,div,ul,li,dl,dt,dd,ol,p,h1,h2,h3,h4,h5,h6,form, table, th, td, tr, tbody, div{margin:0;margin:0;padding:0;-webkit-print-color-adjust:exact; /* 230518추가 배경 프린트 가능하게*/}
+			ul,ol,dl {list-style:none}
+			img {border:0; vertical-align:middle}
+			ul {list-style:none; padding:0; margin:0;_margin:0;}
+			table {border-collapse:collapse;width:100%;}
+			a {text-decoration:none;cursor:pointer;outline:none;}
+			a:hover,a:visited,a:link{text-decoration:none;}
+			/* pdf 변환 기본 옵션 */
+			#wrap{width:765px;margin:0 auto;}
+			h1,h2,h3,h4,h5,h6{display:none;}
+			/* 기본 font 설정 */
+			body{width:700px;margin:0 auto;}
+			body,div,p,table,td,th,span,a{font-family:'dotum', sans-serif; ;font-size:11px;color:#4e4e4e; 
+				/* letter-spacing:-0.4px; */
+			}
+			th,th div{font-family:'Dotum'; font-weight:bold; font-size:12px; color:#686868;}
+			/* -------------------------------------- 내용  ------------------------------------------ */
+			/*공통*/
+			.taL {
+				text-align:left;
+			}
+			.taC {
+				text-align:center;
+			}
+			.taR {
+				text-align:right;
+			}
+			.fwB{
+				font-weight:bold;
+			}
+			.lsK{
+				letter-spacing:-0.9px;
+			}
+			.lsN{
+				letter-spacing:-0.4px;
+			}
+			/*160815 수정*/
+			.lsComment .lsCommentbox{
+				margin-top: 4px;
+			}
+			.tableComment.lsComment{
+				letter-spacing:-1.1px;
+				clear: both;
+				padding-top: 1px;
+			}
+			/*180719추가*/
+			.boxType03In.tableComment{
+				margin-top: 1px;
+			}
+			.tableComment.type02{
+				letter-spacing: -1.1px;
+				/* font-size:9px; */
+				text-align: left;
+			}
+			.tableComment.type03{
+				letter-spacing: -2.0px;
+				/* font-size:9px; */
+				text-align: center;
+			}
+			.tableComment.type03.safari{
+				letter-spacing: -0.9px;
+				/* font-size:9px; */
+			}
+			/*160830 추가*/
+			.titlestyle01{
+				font-size:10px;
+				color:#686868;
+			}
+			.fS11{
+				font-size:11px;
+			}
+			.mL9{
+				margin-left:9px;
+			}
+			.mT3{
+				margin-top:3px;
+			}
+			.mT5{
+				margin-top:5px;
+			}
+			.mT10{
+				margin-top:10px;
+			}
+			.mL20{
+				margin-left:20px;
+			}
+			.mL30{
+				margin-left:30px;
+			}
+			.mL40{
+				margin-left:40px;
+			}
+			.mL48{
+				margin-left:48px;
+			}
+			.mL50{
+				margin-left:50px;
+			}
+			.mb12{
+				margin-bottom:12px;
+			}
+			.mb50{
+				margin-bottom:50px;
+			}
+			.mb30{
+				margin-bottom:30px;
+			}
+			/*171124추가*/
+			/*Header*/
+			.headerWrap{
+				 overflow: hidden;
+				 margin-bottom: 20px;
+			}
+			/*180226 수정*/
+			/*171218 수정*/
+			.headerleft{
+				float:left;
+				width:15%;
+			}
+			.headerright{
+				float:right;
+				/*190327 수정width:83%;*/
+					width: 100%;
+			}
+			/* 210521 QR 코드 삽입 */
+			.headerright .topbg{position: relative;}
+			.headerright .topbg .qr_independence{position: absolute; right: 7px; bottom: 7px;}
+			/*171218수정*/
+			.thanks{
+				font-family:'TSansBetaTTFRegular';
+				font-size:12px;
+				letter-spacing:-0.5px;
+				line-height:150%;
+			}
+			/*링크*/
+			.linkT a{
+				font-family:'TSansBetaTTFRegular';
+				text-decoration:underline;
+			}
+			.detail_view a{
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+				font-size:12px;
+				text-decoration:underline;
+				color:#2771ca;
+			}
+			/*빨간글씨*/
+			.text01{
+				font-family:"Dotum";
+				font-size:11px;
+				color: #ea002c;
+				}
+			/* 로고 */
+			.logo{
+				margin-bottom:25px;
+			}
+			/* 230502수정 상단이미지 아래 (재발행)부터 고객이름 들어가는 영역 유무선CSS랑 동일하게 수정*/
+			/*문서타입*/
+			.DType span{
+				font-size:15px;
+				font-family:"TSansBetaTTFRegular";
+				letter-spacing:0px;
+			}
+			/*기간 안내, 고객명*/
+			.skMember{
+				width:698px;
+				overflow:hidden;
+				margin-bottom:12px;
+				margin-top: 12px; /* 230322수정 */
+			}
+			.skMember .date{
+				/* width:43%; */ /* 230322 수정 */
+				float:left;
+				color: #ea002c;
+			}
+			.skMember .date .year{
+				float:left;
+				font-size:28px;
+				font-weight:bold;
+				font-family:"TSansBetaTTFRegular";
+				letter-spacing:0px;
+				padding-right: 8px;
+			}
+			/*160824*/
+			.skMember .detailDay{
+				float:left;
+				border-left:0.75pt solid #a0a0a0;
+				margin:3px 0 0 0px; /* 230502추가 */
+				padding-left:10px;
+				font-family:"TSansBetaTTFRegular";
+				font-size:11px;
+				letter-spacing:0px;
+			}
+			.detailDay div{
+				font-family:"TSansBetaTTFRegular";
+				font-size:11px;
+				letter-spacing:0px;
+			}
+			.skMember .name{
+				/* width:57%; */
+				/* 230322 수정 */
+				float:right;
+				text-align: right;
+				font-size:15px;
+				font-family:'Dotum';
+				/* margin-top:10px; */
+				/* 230322수정 */
+				letter-spacing:-0.9px;
+			}
+			.skMember .name .tel{
+				margin-right:5px;
+				color: #4e4e4e;
+				font-size:15px;
+				font-family:'TSansBetaTTFRegular';
+				letter-spacing:0px;
+			}
+			/* 230417 추가 */
+			.skMember .name1 {
+					font-size: 13px;
+				/* 230502추가 */
+				float:right;
+				text-align: right;
+				font-family:'Dotum';
+				letter-spacing:-0.9px;
+				margin-top: 4px;
+			}
+			/* 230417 추가 */
+			.skMember .name1 .tel1{
+					font-size: 13px;
+				/* 230502추가 */
+				margin-right:5px;
+				color: #4e4e4e;
+				font-family:'TSansBetaTTFRegular';
+				letter-spacing:0px;
+			}
+			.skMember .text01{
+				color: #424242;
+				font-size: 15px;
+			}
+			/* //230502수정 */
+			/* text 박스 */
+			/* 이번 달 납부 금액 정보 */
+			.textBox01{
+				margin-bottom:13px;
+			}
+			.textBox01 .textBoxIn{
+				overflow:hidden;
+				padding:15px 10px;
+				border:1.5pt solid #ef7709;
+			}
+			.textBox01 .textBoxIn div{
+				color:#4e4e4e;
+				font-size:17px;
+				line-height:100%;
+				font-family:'TSansBetaTTFRegular';
+				letter-spacing:0px;
+			}
+			.textBox01 .textBoxIn div.taL{
+				float:left;
+				padding-top: 4px;
+			}
+			.textBox01 .textBoxIn div.taL1{
+				float:left;
+				padding-top: 0;
+			}
+			.textBox01 .textBoxIn div span{
+				font-size:17px;
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+				letter-spacing:0px;
+			}
+			.textBox01 .tableComment{
+				font-family:'Dotum';
+				font-size:12px;
+			}
+			.textBox01 .textBoxIn .pT2{
+				padding-top:2px;
+			}
+			.textBox01 .textBoxIn .taL .Boxdate{
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+				font-size:17px;
+				color:#ef7709;
+				letter-spacing:0px;
+			}
+			.textBox01 .textBoxIn .telFee{
+				font-size:19px;
+				color:#4e4e4e;
+				font-weight:normal;
+				letter-spacing:-1.1px;
+			}
+			.textBox01 .textBoxIn .telFeeSum{
+				font-size:19px;
+				color:#4e4e4e;
+				letter-spacing:-0.8px;
+					font-weight:normal;
+			}
+			.textBox01 .pL6{
+				padding-left:6px;
+			}
+			/*통신서비스요금*/
+			/*숫자이미지 공통*/
+			.boxTitle {
+				overflow:hidden;
+			}
+			/*160628*/
+			.boxTitle .imgN{
+				padding:6px 0 0 10px;
+			}
+			.boxTitle div{
+				float:left;
+			}
+			.boxType02{
+				overflow:hidden;
+				margin-bottom:8px;
+			}
+			.boxType02L{
+				width:231px; 
+				float:left; 
+				margin-bottom:0;
+				padding-top:2px;
+			}	
+			.boxType02LIn{
+				border:3.5pt solid #3fa59b; /*230518 굵기 변경 2.5pt -> 3.5pt*/
+				background:#fff;
+			}
+			.boxType02L .size1l{
+				font-size:17px;
+				height:53px; /*230518 수정*/
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+				color:#3fa59b;
+				letter-spacing:0px;
+				padding-left:4px;
+					padding-top:7px;
+			}
+			.boxType02L .size2l{
+				font-family:'TSansBetaTTFRegular';
+				font-size:17px;
+				text-align:right;
+				font-weight:bold;
+				padding:0 10px 10px 0;
+			}
+			/*납기일*/
+			.boxType03 {
+				width:225px;
+				float:right;
+				margin-top:17px;
+			}
+			/*160908 수정*/
+			.boxType03In {
+				border-bottom:1.5pt solid #ef7709;
+				padding-bottom:20px;
+			}
+			.boxType03L{
+				float:left;
+				text-align:left;
+				width:40%;
+				margin-top:2px; /* 230518수정 */
+			}
+			.boxType03R{
+				float:right;
+				text-align:right;
+				width:55%;
+					/* 230404 60에서 55로 수정 */
+				font-family:'Dotum';
+				letter-spacing:-0.9px;
+				margin-top:2px; /* 230518수정 */
+				font-weight:bold;
+				font-size:13px;
+				padding: 0 5px 0 0;
+			}
+			.boxType03 .fontType01 {
+				font-family:'TSansBetaTTFRegular';
+				letter-spacing:0px;
+				font-size:15px;
+				color:#ef7709;
+				margin-right:10px;
+			}
+			/*부가사용금액*/
+			.boxType04{
+				overflow:hidden;
+				margin-bottom:8px;
+			}
+			.boxType04L{
+				width:231px; 
+				float:left; 
+				margin-bottom:0;
+				padding-top:2px;
+			}	
+			.boxType04LIn{
+				border:3.5pt solid #b7a811; /*230518 굵기 변경 1.5pt -> 3.5pt*/
+				background:#fff;
+			}
+			.boxType04L .size1l{
+				font-size:16px;
+				font-family:'TSansBetaTTFRegular';
+				font-weight:normal;
+				letter-spacing:0px;
+				height:54px;
+				color:#b7a811;
+				padding:7px 0 0 4px;
+			}
+			.boxType04L .size2l{
+				font-family:'TSansBetaTTFRegular';
+				font-size:16px;
+				font-weight:bold;
+				text-align:right;
+				padding:0 10px 10px 0;
+			}
+			/*단말기할부금*/
+			.boxType05{
+				overflow:hidden;
+				margin-bottom:8px;
+			}
+			.boxType05L{
+				width:231px; 
+				float:left; 
+				margin-bottom:0;
+				padding-top:2px;
+			}	
+			.boxType05LIn{
+				border:3.5pt solid #dd6a7b;/*230518 굵기 변경 2.5pt -> 3.5pt*/
+				background:#fff;
+			}
+			.boxType05L .size1l{
+				font-size:17px;
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+				letter-spacing:0px;
+				height:54px;
+				color:#dd6a7b;
+				padding:7px 0 0 4px;
+			}
+			.boxType05L .size2l{
+				font-family:'TSansBetaTTFRegular';
+				font-size:17px;
+				font-weight:bold;
+				text-align:right;
+				padding:0 10px 9px 0;
+			}
+			/*
+			.boxType05{
+				overflow:hidden;
+				margin-bottom:22px;
+			}
+			.boxType05Wrap{
+				width:231px; 
+				float:left; 
+				margin-bottom:0;
+				padding-top:2px;
+			}
+			.boxType05L{
+				margin-bottom:0;
+				padding-top:2px;
+			}	
+			.boxType05LIn{
+				border:1.5pt solid #dc6b7d;
+				background:#fff;
+			}
+			.boxType05L .size1l{
+				font-family:'TSansBetaTTFRegular';
+				font-size:16px;
+				font-weight:bold;
+				letter-spacing:0px;
+				height:54px;
+				color:#dc6b7d;
+				padding:1px 0 0 4px;
+			}
+			.boxType05L .size2l{
+				font-family:'TSansBetaTTFRegular';
+				font-size:16px;
+				font-weight:bold;
+				text-align:right;
+				padding:0 10px 5px 0;
+			}
+			.boxType05Wrap .tableComment{
+				overflow:hidden;
+				line-height:160%;
+				font-family:'TSansBetaTTFRegular';
+				font-size:11px;
+				font-weight:bold;
+				letter-spacing:-0.9px;
+			}
+			*/
+			/*미납금액 타통신사요금*/
+			.boxType06{
+				overflow:hidden;
+				margin-bottom:22px;
+			}
+			.boxType06L{
+				width:225px; 
+				float:right; 
+				margin-bottom:0;
+				padding-top:2px;
+			}	
+			.boxType06LIn{
+				border:3.5pt solid #79675e; /*230518 굵기 변경 1.5pt -> 3.5pt*/
+				background:#fff;
+			}
+			.boxType06L .size1l{
+				font-family:'TSansBetaTTFRegular';
+				font-size:16px;
+				font-weight:normal;
+				letter-spacing:0px;
+				height:24px;
+				color:#79675e;
+				padding:7px 0 0 4px;
+			}
+			.boxType06L .size2l{
+				font-family:'TSansBetaTTFRegular';
+				font-size:16px;
+				font-weight:bold;
+				text-align:right;
+				padding:0 10px 4px 0;
+			}
+			/*기타요금*/
+			.boxType07{
+				overflow:hidden;
+				margin-bottom:18px;
+			}
+			/*180227 추가*/
+			.boxType07WWrap{
+				float:left; 
+			}
+			.boxType07Wrap{
+				width:231px; 
+				float:left; 
+				margin-bottom:0;
+				padding-top:2px;
+			}
+			.boxType07L{
+				margin-bottom:0;
+				/*padding-top:2px;*/
+			}	
+			.boxType07LIn{
+				border:3.5pt solid #6779bb; /*230518 굵기 변경 1.5pt -> 3.5pt*/
+				background:#fff;
+			}
+			.boxType07L .size1l{
+				font-family:'TSansBetaTTFRegular';
+				font-size:16px;
+				font-weight:normal;
+				letter-spacing:0px;
+				height:54px;
+				color:#6779bb;
+				padding:7px 0 0 4px;
+			}
+			.boxType07L .size2l{
+				font-family:'TSansBetaTTFRegular';
+				font-size:16px;
+				font-weight:bold;
+				text-align:right;
+				padding:0 10px 10px 0;
+			}
+			.boxType07Wrap .tableComment{
+				overflow:hidden;
+				line-height:160%;
+				font-family:'Dotum';
+				font-size:11px;
+				font-weight:bold;
+				letter-spacing:-0.9px;
+			}
+			/*상단 회색 테이블*/
+			/*160628 height:86px;추가 td 수정*/
+			.tableRow00{
+				width:465px;
+				height:73.5px;/*230518 수정*/ 
+				float:right;
+				margin-bottom:0;
+					margin-top: 2px; /*230518 추가*/
+				background:#f2f2f2;
+				padding: 14px 0 8.5px 0;/*230518 수정*/
+			}
+			/*160809 수정*/
+			/*160805 수정*/
+			.tableRow00 tbody td{
+				vertical-align:top;
+				padding:0px 13px;
+					height: 18px;/* 230509 추가 */
+				/*border-left:0.78pt solid #dfe0e1;*/
+			}
+			.tableRow00 td{
+				vertical-align:top;
+				padding:0px 13px;
+				/*border-left:0.78pt solid #dfe0e1;*/
+			}
+			.tableRow00 tbody td.first{
+				border-left:0;
+			}
+			.tableRow00 .pT2 {
+				height:7px;
+			}
+			.tableRow00 tbody .taL,
+			.tableRow00 tbody .taR{
+				display:block;
+				padding-bottom:5px;
+				font-family:'Dotum';
+				font-size:11px;
+			}
+			.tableRow00 tbody .taL{
+				width:43%;
+				float:left;
+				text-align:left;
+				letter-spacing:-0.9px;
+			}
+			.tableRow00 tbody .taR{
+				width:57%;
+				text-align:right;
+				float:right;
+				letter-spacing:-0.4px;
+			}
+			/*160728 수정*/
+			/*160718 수정*/
+			/*상단 회색 테이블 단말기할부금*/
+			.tableRow00T1In{
+				width:237px;
+				float:left;
+				padding-left:5px;
+			}
+			.tableRow00T1{
+				background:#f2f2f2;
+				height:73.5px; /*230410 높이값 추가*//*230518 수정*/ 
+					margin-top: 2px; /*230518 추가*/
+				width:232px;
+				padding: 14px 0 8.5px 0;/*230518 수정*/ 
+					-webkit-print-color-adjust:exact; /* 230518추가 배경 프린트 가능하게*/
+			}
+			/*171205 수정*/
+			/*160809 수정 */
+			/*160718 추가*/
+			.tableRow00T1 .pT2 {
+				height:9px;
+			}
+			/*160809 수정*/
+			.tableRow00T1 tbody td{
+				vertical-align:top;
+				padding:0px 13px;
+				border-left:0.78pt solid #dfe0e1;
+					height: 18px;/* 230509 추가 */
+			}
+			.tableRow00T1 td{
+				vertical-align:top;
+				padding:0px 13px;
+				border-left:0.78pt solid #dfe0e1;
+			}
+			.tableRow00T1 tbody td.first{
+				border-left:0;
+				width: 100%;
+			}
+			.tableRow00T1 tbody .taL,
+			.tableRow00T1 tbody .taR{
+				display:block;
+				padding-bottom:5px;
+				font-family:'Dotum';
+				font-size:11px;
+			}
+			.tableRow00T1 tbody .taL{
+				width:43%;
+				float:left;
+				text-align:left;
+				letter-spacing:-0.9px;
+			}
+			.tableRow00T1 tbody .taR{
+				width:57%;
+				text-align:right;
+				float:right;
+				letter-spacing:-0.4px;
+			}
+			/* 세로 테이블 */
+			/*주소/연락처, 납부정보, 납부방법 안내*/
+			.tableRow{
+				margin-bottom:22px;
+				border-top:1.1pt solid #dfe0e1;
+			}
+			.tableRow table{
+				border-bottom:1.1pt solid #dfe0e1
+			}
+			.tableRow thead th{
+				padding:5px 10px 4px 10px;
+				line-height:130%;
+				border-bottom:0.78pt solid #dfe0e1;
+				background:#faf9f9;
+			}
+			.tableRow th{
+				padding:5px 10px 4px 10px;
+				line-height:130%;
+				border-bottom:0.78pt solid #dfe0e1;
+				background:#faf9f9;
+			}
+			.tableRow tbody td{
+				vertical-align:top;
+				padding:6px 10px 0 10px;
+				border-left:0.78pt solid #dfe0e1;
+			}
+			.tableRow tbody td.mR8{
+				vertical-align:top;
+				padding:6px 8px 0 9px;
+				border-left:0.78pt solid #dfe0e1;
+			}
+			.tableRow tbody td.mR8.last .taL{
+				width: 25%;
+			}
+			.tableRow tbody td.mR8.last .taR{
+				width: 75%;
+					letter-spacing: -0.8px;
+			}
+			.tableRow tbody td.mR8.last .taR.cn {
+					font-size:10px;
+			}
+			.tableRow td{
+				vertical-align:top;
+				padding:6px 10px 0 10px;
+				border-left:0.78pt solid #dfe0e1;
+			}
+			.tableRow thead th.first,
+			.tableRow tbody td.first{
+				border-left:0;
+			}
+			.tableRow thead th.borL {
+					border-left:0.78pt solid #dfe0e1;
+			}
+			.tableRow thead .taL,
+			.tableRow thead .taR{
+				width:49%;
+				display:block;
+			}
+			.tableRow thead .taL{
+				float:left;
+				text-align:left;
+			}
+			.tableRow thead .taR{
+				text-align:right;
+				float:right;
+				font-family:"Dotum";
+				font-size:11px;
+				color:#4e4e4e;
+			}
+			.tableRow tbody .taL,
+			.tableRow tbody .taR{
+				display:block;
+				padding-bottom:6px;
+			}
+			.tableRow tbody .taL{
+				width:30%;
+				float:left;
+				color:#686868;
+				font-weight:bold;
+				font-family:'Dotum';
+				letter-spacing:-0.9px;
+				font-size:12px;
+				clear: both;
+			}
+			.tableRow tbody .taL.wide {
+					width:50%;
+			}
+			.tableRow tbody .taR{
+				width:70%;
+				text-align:right;
+				float:right;
+				font-family:"Dotum";
+				font-size:11px;
+				color:#4e4e4e;
+			}
+			.tableRow tbody .taR.narrow {
+					width:50%;
+			}
+			.tableRow tbody .w50{
+				width:50%;
+			}
+			.tableRow tbody .fwB{
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+			}
+			.tableRow .letterS{
+				letter-spacing:-1.1px;
+			}
+			/*납부방법 안내4*/
+			.tableRow .textT01{
+				margin-bottom:8px;
+				color: #686868;
+				font-size:14px;
+				font-family:'TSansBetaTTFRegular';
+				padding-bottom:10px;
+				float:left;
+			}
+			/*160628 추가*/
+			.tableRow .textT02 {
+				float:left;
+			}
+			.tableRow .textT02 a{
+				color: #4e4e4e;
+				text-decoration:underline;
+				font-size:11px;
+				font-family:'TSansBetaTTFRegular';
+			}
+			.tableRow .lH01{
+				line-height:160%;
+			}
+			.tableRow .lH01 div{
+				line-height:160%;
+				font-size:11px;
+				font-family:'TSansBetaTTFRegular';
+			}
+			.tableRow .lH01 .payhowIn{
+				overflow:hidden;
+				margin-bottom:7px;
+			}
+			.tableRow .lH01 .payhow{
+				float:left;
+			}
+			/*160628 변경*/
+			.tableRow .lH01 .pL6{
+				padding-left:6px;
+				float:left;
+			}
+			/*160628 변경*/
+			.tableRow .lH01 .pL30{
+				padding-left:20px;
+				float:left;
+				font-size:10px;
+			}
+			.tableRow td.vaT{
+				vertical-align:top;
+				letter-spacing: -0.4px;
+			}
+			.tableRow td .internetBox{
+				padding:10px 20px 20px 5px;
+			}
+			/*160628 추가*/
+			.tableRow .internetBoxT{
+				overflow:hidden;
+			}
+			/*160628 수정*/
+			.tableRow .pL15{
+				padding:2px 0 0 15px;
+				float:left;
+			}
+			.tableRow td .internetBox div{
+				font-family:'TSansBetaTTFRegular';
+				color:#686868;
+			}
+			.tableRow td .internetBox a{
+				font-family:'TSansBetaTTFRegular';
+			}
+			.tableRow td .CDBox{
+				padding:10px 4px 10px 5px;
+			}
+			/*160811 추가*/
+			.tableRow td .CDBox .letterS{
+				letter-spacing:-0.8px;
+			}
+			/*160628 추가*/
+			.tableRow .CDBoxT{
+				overflow:hidden;
+			}
+			.tableRow td .CDBox div{
+				font-family:'TSansBetaTTFRegular';
+				color:#686868;
+			}
+			/* 가로 테이블 tableCol */
+			/* 입금전용 계좌 멤버십 할인한도 레인보우 포인트 포인트 내역  세금계산서*/
+			.tableCol{
+				margin-bottom:22px;
+				border-top:1.1pt solid #dfe0e1;
+			}
+			.tableCol table{
+				border-bottom:1.1pt solid #dfe0e1;
+			}
+			.tableCol tbody th,
+			.tableCol tbody td{
+				padding: 5px 0px 5px 10px;
+				text-align: left;
+				border-bottom: 0.78pt solid #dfe0e1;
+				border-left: 0.78pt solid #dfe0e1;
+			}
+			.tableCol tbody th{
+				background: #faf9f9;
+				font-family:'Dotum';
+				font-weight:bold;
+				color:#686868;
+				letter-spacing:-0.9px;
+			}
+			.tableCol tbody td{
+				font-family:'Dotum';
+				font-size:11px;
+				letter-spacing:-0.4px;
+			}
+			.tableCol td.taR{
+				text-align:right;
+				padding-right:10px;
+			}
+			/* 230410추가 */
+			.tableCol td.taC{
+				text-align:center;
+			}
+			.tableCol tbody th.first,
+			.tableCol tbody td.first{
+				border-left:0;
+			}
+			.tableCol tbody th.last,
+			.tableCol tbody td.last{
+				border-bottom:0;
+			}
+			.tableCol tbody td .text01{
+				color:#f68026;
+			}
+			.tableCol .taC{
+				text-align:center;
+			}
+			.tableCol .case02{
+				margin-bottom:20px;
+				border-top:1.1pt solid #dfe0e1;
+			}
+			.tableComment .usedetailPointR{
+				font-family:'Dotum';
+				font-size:10px;
+				-moz-font
+				color:#ea002c;
+				letter-spacing:-0.9px;
+			}
+			/* 160628 추가 */
+			.tableComment .usedetailPointB{
+				font-family:'Dotum';
+				font-size:10px;
+				letter-spacing:-0.9px;
+			}
+			.usedetailPointR{
+				font-family:'Dotum';
+				font-weight:bold;
+				font-size:11px;
+				color:#ea002c;
+				letter-spacing:-0.9px;
+			}
+			.h3_textB{
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+				font-size:12px;
+				color:#ef7709;
+			}
+			/*161208*/
+			/*161019*/
+			.usefont{
+			 height:15px;
+			 font-size:15px;/*161208*/
+			 text-align:left;
+			 font-weight:bold;
+			 padding:10px 0 4px 0;
+			 letter-spacing:-0.7px;
+			}
+			/*161208*/
+			.usefont01{
+			 height:16px;
+			 font-size:11px;
+			 text-align:left;
+			 padding:0 0 0 0;
+			 letter-spacing:-0.7px;
+			 font-weight:bold;
+			 margin-top: 8px;
+			}
+			/*180719*/
+			/*161216*/
+			.usefont02{
+			 height:17px;
+			 font-size:17px;
+			 text-align:center;
+			 padding:17px 0 15px 0;
+			 letter-spacing:-0.7px;
+			 font-weight:bold;
+			}
+			/* skMemberEng */
+			.skMemberEng{
+				margin-bottom:34px;
+				margin-top: 100px;
+				text-align:right;
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+				font-size:18px;
+				color:#ef7709;
+			}
+			.skMemberEng span{
+				margin-right:9px;
+				text-align:right;
+				color:#424242;
+				font-size:15px;
+			}
+			/* h3 */
+			.h3{
+				margin-bottom:4px;
+				overflow:hidden;
+			}
+			.h3 p{
+				margin-bottom:4px;
+				font-size:15px;
+				color:#ef7709;
+				font-family:'TSansBetaTTFRegular';
+			} 
+			.h3 .taL{
+				float:left;
+				width:49%;
+			}
+			.h3 .taR{
+				float:right;
+				width:49%;
+				text-align:right;
+			}
+			.h3 .taLtypeA{
+				float:left;
+				width:60%;
+			}
+			.h3 .taRtypeA{
+				float:right;
+				width:39%;
+				text-align:right;
+				padding-top:10px;
+				line-height:100%;
+			}
+			.h3 .taR{
+				padding-top:10px;
+				line-height:100%;
+			}
+			.h3 .taR img{
+				vertical-align:top;
+			}
+			.h3 .fwB{
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+			}
+			.h3 .taR .fwB{
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+			}
+			.h3.style02{
+				padding-bottom:6px;
+				margin-bottom:25px;
+				border-bottom:1.1pt solid #dfe0e1;
+			}
+			.h3.style03{
+				padding-bottom:4px;
+				margin-bottom:25px;
+				border-bottom:1.1pt solid #dfe0e1;
+			}
+			.h3.style04{
+				padding-bottom:2px;
+				margin-bottom:12px;
+				border-bottom:1.1pt solid #dfe0e1;
+			}
+			.h3 .fS13{
+				font-size:13px;
+			}
+			.h3.style05{
+				padding-bottom:2px;
+				margin-bottom:32px;
+				border-bottom:1.1pt solid #dfe0e1;
+			}
+			.h3 .fL{
+				float:left;
+				width:49%;
+			}
+			.h3 .fR{
+				float:right;
+				width:50%;
+			}
+			.h3 .mL5{
+				margin-left:5px;
+			}
+			/* tableRow size03 eng*/
+			.tableRow.size03 thead .taL{
+				width:40%;
+				letter-spacing:-0.4px;
+			}
+			.tableRow.size03 thead .taR{
+				width:59%;
+				letter-spacing: -1.0px;
+			}
+			.tableRow.size03 thead .taL.cn {
+					width:30%;
+					/* 230404 27에서 30으로 수정 */
+					letter-spacing:-0.9px
+			}
+			.tableRow.size03 thead .taR.cn {
+					width:70%;
+					/* 230404 72에서 70으로 수정 */
+					font-size:10px;
+					letter-spacing:-1.0px;
+			}
+			.tableRow.size03 tbody .taL{
+				width:49%;
+				line-height:100%;
+				letter-spacing:-0.4px;
+			}
+			.tableRow.size03 tbody .taR{
+				width:50%;
+				line-height:100%;
+			}
+			.tableRow.size03  tbody .last{
+				padding-bottom:7px;
+			}
+			/*160908*/
+			.tableRow.size03 tbody .taL.size04 {
+					width: 80%;
+			}
+			.tableRow.size03 tbody .taR.size04 {
+					width: 20%;
+			}
+			/* tableRow02 */
+			/* 해지양도인_ 요금 기본내역 */
+			.tableRow02{
+				margin-bottom:22px;
+				border-top:1.1pt solid #dfe0e1;
+			}
+			.tableRow02 table{
+				border-bottom:1.1pt solid #dfe0e1
+			}
+			.tableRow02 thead th{
+				padding:8px 0;
+				line-height:120%;
+				border-bottom:0.78pt solid #f28a39;
+				border-left:0.78pt solid #dfe0e1;
+				font-size:14px;
+				background:#fdf6e7;
+			}
+			.tableRow02 tbody td{
+				vertical-align:top;
+				padding:10px 10px 4px 10px;
+				border-left:0.78pt solid #dfe0e1;
+			}
+			.tableRow02 thead th.first,
+			.tableRow02 tbody td.first,
+			.tableRow02 tfoot td.first{
+				border-left:0;
+			}
+			.tableRow02 thead .taL,
+			.tableRow02 thead .taR{
+				width:49%;
+				display:block;
+				padding-bottom:5px;
+			}
+			.tableRow02 thead .taL{
+				float:left;
+				text-align:left;
+			}
+			.tableRow02 thead .taR{
+				text-align:right;
+				float:right;
+			}
+			.tableRow02 tbody .taL,
+			.tableRow02 tbody .taR{
+				width:49%;
+				display:block;
+				padding-bottom:6px;
+				font-size:12px;
+			}
+			.tableRow02 tbody .taL{
+				float:left;
+			}
+			.tableRow02 tbody .taR{
+				text-align:right;
+				float:right;
+			}
+			.tableRow02 tfoot td{
+				padding:2px 10px 7px 10px;
+				border-left:0.78pt solid #dfe0e1;
+			}
+			.tableRow02 tfoot .taL,
+			.tableRow02 tfoot .taR{
+				width:49%;
+				display:block;
+				padding-top:4px;
+				padding-bottom:5px;
+				font-family:"Dotum";
+				font-weight:bold;
+				font-size:13px;
+			}
+			.tableRow02 tfoot .taL{
+				float:left;
+			}
+			.tableRow02 tfoot .taR{
+				text-align:right;
+				float:right;
+			}
+			.tableRow02 tfoot .taC{
+				text-align:center;
+			}
+			/* table05 */
+			/*상세내역*/
+			.tableRow05{
+				margin-bottom:22px;
+				border-top:1.1pt solid #dfe0e1;
+			}
+			.tableRow05 table{
+				border-bottom:1.1pt solid #dfe0e1;
+			}
+			.tableRow05 tbody td{
+				vertical-align:top;
+				padding:4px 24px 19px 24px;
+			}
+			.tableRow05 tbody td.first{
+				border-right: 0.78pt solid #dfe0e1;
+			}
+			.tableRow05 tbody .taL,
+			.tableRow05 tbody .taR{
+				width:50%;
+				display:block;
+				padding-bottom:4px;
+			}
+			.tableRow05 tbody .taL{
+				float:left;
+				text-align:left;
+			}
+			.tableRow05 tbody .taR{
+				text-align:right;
+				float:right;
+			}
+			.tableRow05 tbody .tdListTitle{
+				overflow:hidden;
+				text-indent: -1px;
+				text-align: left;
+				margin-bottom:8px;
+				padding:5px 0 5px;
+				border-bottom: 0.78pt solid #dfe0e1;
+			}
+			.tableRow05 tbody .tdListTitle div{
+				padding-bottom:0;
+				font-size: 15px;
+				font-weight:bold;
+				color:#686868;
+			}
+			.tableRow05 tbody .tdListTitle .taL, 
+			.tableRow05 tbody .tdListTitle02,
+			.tableRow05 tbody .tdListTitle02 .taL,
+			.tableRow05 tbody .tdListDepth02 .taL,
+			.tableRow05 tbody .tdListLast02 .taL{
+				letter-spacing:-0.9px;
+			}
+			.tableRow05 tbody .tdListTitle02{
+				margin-bottom:6px;
+				color:#686868;
+			}
+			.tableRow05 tbody .tdListTitle03{
+				padding-top:20px;
+				padding-bottom:6px;
+				font-size:15px;
+				color:#f00;
+				font-weight:bold;
+			}
+			.tableRow05 tbody .bBL{
+				margin-bottom:8px;
+				border-bottom:0.78pt solid #dfe0e1;
+			}
+			.tableRow05 tbody .tdListDepth01{
+				overflow:hidden;
+			}
+			.tableRow05 tbody .tdListDepth01 div{
+				font-weight:bold;
+			}
+			.tableRow05 tbody .tdListTitle02{
+				text-align:left;
+				font-weight:bold;
+			}
+			.tableRow05 tbody .tdListDepth02{
+				overflow:hidden;
+				padding-left:10px;
+				margin-bottom:6px;
+			}
+			.tableRow05 tbody .tdListDepth02 div{
+				font-weight:normal;  
+			}
+			.tableRow05 tbody .tdListLast{
+				overflow:hidden;
+				padding-top:20px;
+				margin-bottom:10px;
+				border-bottom:0.78pt solid #dfe0e1;
+				font-size:12px;
+				font-weight:bold;
+				
+			}
+			.tableRow05 tbody .tdListLast div{
+				font-size:12px;
+				font-weight:bold;
+				
+			}
+			.tableRow05 tbody .tdListLast02{
+				overflow:hidden;
+				padding-top:5px;
+				margin-bottom:2px;
+				border-bottom:0.78pt solid #dfe0e1;
+				font-size:15px;
+				font-weight:bold;
+			}
+			.tableRow05 tbody .tdListLast02 div{
+				font-size:15px;
+				font-weight:bold;
+				color:#686868;
+			}
+			.tdListLastB{
+				overflow:hidden;
+				border-bottom:0.78pt solid #dfe0e1;
+			}
+			/* table06 */
+			/*요금기본내역*/
+			.tableRow06{
+				margin-bottom:22px;
+				border-top:1.1pt solid #dfe0e1;
+			}
+			.tableRow06 table{
+				border-bottom:1.1pt solid #dfe0e1;
+			}
+			.tableRow06 thead th,
+			.tableRow06 tbody td{
+				padding:8px 0 8px 0;
+				border-left:1.1pt solid #e5e6e6;
+				font-size:14px;
+			}
+			.tableRow06 thead th{
+				background:#fdf6e7;
+				border-bottom:0.78pt solid #f28a39;	
+			}
+			.tableRow06 tbody td{
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+				text-align:center;
+			}
+			.tableRow06 thead th.first,
+			.tableRow06 tbody td.first{
+				border-left:0;
+			}
+			.tableRow06 tbody td.last{
+				border-bottom:0;
+			}
+			/*180827추가*/
+			/* tableRow03A*/
+			.tableRow03A{
+				margin-bottom:22px;
+				border-top:1.1pt solid #dfe0e1;
+			}
+			.tableRow03A table{
+				border-bottom:1.1pt solid #dfe0e1
+			}
+			.tableRow03A thead th{
+				padding: 5px 0px 5px 0px;
+				line-height:130%;
+				background:#faf9f9;
+				vertical-align: middle;
+				border-left:1.1pt solid #dfe0e1;
+				border-bottom:1.1pt solid #dfe0e1;
+				letter-spacing:-0.9px;
+			}
+			.tableRow03A tbody th{
+				padding:5px 0px 5px 0px;
+				text-align:center;
+				font-weight:bold;
+				letter-spacing:-0.9px;
+			}
+			.tableRow03A tbody .thead th{
+				padding: 5px 0px 5px 0px;
+				line-height:130%;
+				background:#686868;
+				vertical-align: middle;
+				border-left:1.1pt solid #dfe0e1;
+				border-bottom:1.1pt solid #dfe0e1;
+				text-align:center;
+			}
+			.tableRow03A tbody td{
+				padding: 5px 0px 5px 0px;
+				border-left:1.1pt solid #dfe0e1;
+				word-break: break-all;
+				word-wrap: break-word;
+				text-align:center;
+				font-family:'Dotum';
+			}
+			.tableRow03A thead th.first,
+			.tableRow03A tbody th.first,
+			.tableRow03A tbody td.first,
+			.tableRow03A tfoot th.first,
+			.tableRow03A tbody .bLN td{
+				border-left:0;
+			}
+			.tableRow03A .pdT5{
+				height:3px;
+			}
+			.tableRow03A .bb1{
+					border-top: 0.78pt solid #dfe0e1; /* 230417추가 */
+				border-bottom:0.78pt solid #dfe0e1;
+			}
+			.tableRow03A .bb2{
+				/* border-bottom:1.1pt solid #dfe0e1; */ /* 230417 삭제 */
+			}
+			.tableRow03A .leftN{
+				border-left:0;
+			}
+			/* tableRow03*/
+			.tableRow03{
+				margin-bottom:22px;
+				border-top:1.1pt solid #dfe0e1;
+			}
+			.tableRow03 table{
+				border-bottom:1.1pt solid #dfe0e1
+			}
+			.tableRow03 thead th{
+				padding: 5px 0px 5px 0px;
+				line-height:130%;
+				background:#faf9f9;
+				vertical-align: middle;
+				border-left:0.78pt solid #dfe0e1;
+				border-bottom:0.78pt solid #dfe0e1;
+				letter-spacing:-0.9px;
+			}
+			.tableRow03 tbody th{
+				padding:5px 0px 5px 0px;
+				text-align:center;
+				font-weight:bold;
+				letter-spacing:-0.9px;
+			}
+			.tableRow03 tbody .thead th{
+				padding: 5px 0px 5px 0px;
+				line-height:130%;
+				background:#686868;
+				vertical-align: middle;
+				border-left:0.78pt solid #dfe0e1;
+				border-bottom:0.78pt solid #dfe0e1;
+				text-align:center;
+			}
+			.tableRow03 .pdT5{
+				height:3px;
+			}
+			.tableRow .mB10{
+				margin-bottom:10px;
+				padding-bottom:10px;
+			}
+			.tableRow03 tbody td{
+				padding: 5px 5px 5px 5px;
+				border-left:0.78pt solid #dfe0e1;
+				word-break: break-all;
+				word-wrap: break-word;
+				text-align:center;
+				font-family:'Dotum';
+			}
+			.tableRow03 thead th.first,
+			.tableRow03 tbody th.first,
+			.tableRow03 tbody td.first,
+			.tableRow03 tfoot th.first,
+			.tableRow03 tbody .bLN td{
+				border-left:0;
+			}
+			.tableRow03 tbody .tfootTd td{
+				border-bottom:1.1pt solid #dfe0e1;
+				font-family:'TSansBetaTTFRegular';
+			}
+			.tableRow03 tfoot td.bL1{
+				border-left:0.78pt solid #dfe0e1;
+			}
+			.tableRow03 tfoot th{
+				padding:5px 0 5px 0;
+				border-top:0.78pt solid #dfe0e1;
+				font-weight:bold;
+			}
+			.tableRow03 tfoot td{
+				padding:5px 0 5px 0;
+				border-top:0.78pt solid #dfe0e1;
+				border-left:0.78pt solid #dfe0e1;
+				text-align:center;
+			}
+			/*160705*/
+			.tableRow03 tfoot th.bTN,
+			.tableRow03 tfoot td.bTN{
+					/* 230404 border-top값 수정 */
+				/* border-top:0; */
+					border-top: 0.78pt solid #dfe0e1;
+			}
+			.tableRow03 tbody .thead th.BCB,
+			.tableRow03 th.BCB{
+				background: #ebeaea;
+			}
+			.tableRow03 tbody .fwB{
+				font-weight:bold;
+			}
+			.tableRow03 .taR{
+				padding-right:5px;
+				text-align:right;
+			}
+			.tableRow03 .taR01{
+				padding-right:2px;
+				text-align:right;
+			}
+			.tableRow03 .taL{
+				padding-left:10px;
+				text-align:left;
+			}
+			.tableRow03 .taL02{
+				padding-left:19px;
+				text-align:left;
+			}
+			/*160705*/
+			.tableRow03 .bb1{
+				border-bottom:0.78pt solid #dfe0e1;
+				border-top:0.78pt solid #dfe0e1;
+			}
+			.tableRow03 .sumFont{
+				font-size:12px;
+				color:#686868;
+			}
+			/*180727*/
+			.tableRow03 .bb2{
+				border-bottom:0.78pt solid #dfe0e1;
+			}
+			/* tableRow08 */
+			.tableRow08{
+				margin-bottom:22px;
+				border-top:1.1pt solid #dfe0e1;
+			}
+			.tableRow08 table{
+				border-bottom:0.9pt solid #dfe0e1
+			}
+			.tableRow08 thead th{
+				padding: 5px 0px 4px 0px;
+				line-height:130%;
+				background:#faf9f9;
+				vertical-align: middle;
+				border-left:0.78pt solid #dfe0e1;
+				border-bottom:0.78pt solid #dfe0e1;
+				font-family:'Dotum';
+				color:#686868;
+				letter-spacing:-0.9px;
+			}
+			.tableRow08 tbody th{
+				padding:5px 0 4px 10px;
+				text-align:left;
+				border-bottom:0.78pt solid #dfe0e1;
+				font-family:'Dotum';
+				color:#686868;
+				letter-spacing:-0.9px;
+			}
+			.tableRow08 tbody .thead th{
+				padding: 5px 0px 4px 0px;
+				line-height:130%;
+				background:#faf9f9;
+				vertical-align: middle;
+				border-left:0.78pt solid #dfe0e1;
+				border-bottom:0.78pt solid #dfe0e1;
+				text-align:center;
+			}
+			.tableRow08 .pdT5{
+				height:5px;
+			}
+			.tableRow08 tbody td{
+				padding: 5px 0 6px 0;
+				border-left:0.78pt solid #dfe0e1;
+				border-bottom:0.78pt solid #dfe0e1;
+				word-break: break-all;
+				word-wrap: break-word;
+				text-align:center;
+			}
+			/* 230410추가 */
+			.tableRow08 tbody td.tdR{
+					padding-right: 5px;
+					text-align: right;
+			}
+			.tableRow08.type02 thead th{
+				padding:5px 0 7px 0;
+			}
+			.tableRow08.type02 tbody td{
+				padding:5px 0 7px 0;
+				word-break: break-all;
+				word-wrap: break-word;
+			}
+			.tableRow08 thead th.first,
+			.tableRow08 tbody th.first,
+			.tableRow08 tbody td.first,
+			.tableRow08 tbody .bLN td{
+				border-left:0;
+			}
+			.tableRow08 tbody .tfoot td td{
+				border-bottom:1.1pt solid #dfe0e1;
+				font-family:'Dotum';
+				letter-spacing:-0.4px;
+			}
+			.tableRow08 tfoot td.bL1{
+				border-left:0.78pt solid #dfe0e1;
+			}
+			.tableRow08 tfoot td{
+				padding:5px 0 5px 0;
+				border-bottom:0.78pt solid #dfe0e1;
+				font-family:'Dotum';
+				font-weight:bold;
+				letter-spacing:-0.4px;
+				color:#686868;
+			}
+			.tableRow08 tfoot .bTN td{
+				border-top:0;
+			}
+			.tableRow08 tbody .thead th.BCB,
+			.tableRow08 th.BCB{
+				background: #ebeaea;
+			}
+			.tableRow08 .taR{
+				padding-right:10px;
+				text-align:right;
+			}
+			/*160905*/
+			.tableRow08 .taR01{
+				padding-right:3px;
+				text-align:right;
+			}
+			.tableRow08 .taL{
+				padding-left:10px;
+				text-align:left;
+			}
+			/*160805 추가*/
+			/*고객님을 위한 맞춤안내*/
+			/* tableRow09 */
+			.tableRow09{
+				padding-bottom:22px;
+				border-top:1.1pt solid #dfe0e1;
+			}
+			.tableRow09 table{
+				border-bottom:0.9pt solid #dfe0e1
+			}
+			.tableRow09 thead th{
+				padding: 5px 0px 4px 0px;
+				line-height:130%;
+				background:#faf9f9;
+				vertical-align: middle;
+				border-left:0.78pt solid #dfe0e1;
+				border-bottom:0.78pt solid #dfe0e1;
+				font-family:'Dotum';
+				color:#686868;
+				letter-spacing:-0.9px;
+			}
+			.tableRow09 tbody th{
+				padding:5px 0 4px 10px;
+				text-align:left;
+				border-bottom:0.78pt solid #dfe0e1;
+				font-family:'Dotum';
+				color:#686868;
+				letter-spacing:-0.9px;
+			}
+			.tableRow09 tbody td{
+				padding: 5px 0 6px 0;
+				border-left:0.78pt solid #dfe0e1;
+				border-bottom:0.78pt solid #dfe0e1;
+				word-break: break-all;
+				word-wrap: break-word;
+				text-align:center;
+			}
+			/* 230424추가 */
+			.tableRow09 tbody td:first-child{
+					border-left: none;
+			}
+			.tableRow09 thead th.first,
+			.tableRow09 tbody th.first,
+			.tableRow09 tbody td.first,
+			.tableRow09 tbody .bLN td{
+				border-left:0;
+			}
+			.tableRow09 tbody .tfootTd td{
+				border-bottom:1.1pt solid #dfe0e1;
+				font-family:'Dotum';
+				letter-spacing:-0.4px;
+			}
+			.tableRow09 tfoot td.bL1{
+				border-left:0.78pt solid #dfe0e1;
+			}
+			.tableRow09 tfoot td{
+				padding:5px 0 5px 0;
+				border-bottom:0.78pt solid #dfe0e1;
+				font-family:'Dotum';
+				font-weight:bold;
+				letter-spacing:-0.4px;
+				color:#686868;
+			}
+			.tableRow09 tfoot .bTN td{
+				border-top:0;
+			}
+			.tableRow09 tbody .thead th.BCB,
+			.tableRow09 th.BCB{
+				background: #ebeaea;
+			}
+			.tableRow09 .taR{
+				padding-right:9px;
+				text-align:right;
+			}
+			.tableRow09 .taL{
+				padding-left:10px;
+				text-align:left;
+			}
+			/*문의,접수박스*/
+			/*자동납부신청 자주찾는 문의 이메일 접수*/
+			.payBoxdiv{
+				margin-bottom:20px;
+				overflow:hidden;
+			}
+			.payBoxdiv p{
+				margin-top: 5px;
+				line-height:160%;
+				font-family:'TSansBetaTTFRegular';
+			}
+			.payBoxIn{
+				width:240px;
+				float:left;
+			}
+			.payBoxIn01{
+				width:220px;
+				float:left;
+			}
+			.payBoxIn02{
+				width:360px;
+				float:left;
+			}
+			.payBoxIn03{
+				width:340px;
+				float:left;
+			}
+			.payBox{
+				width:185px;
+				height: 100px;
+				border:0.78pt solid #dfe0e1;
+				background-color:#faf9f9;
+				padding:30px 15px 20px 15px;
+			}
+			.payBox01{
+				width:300px;
+				height: 100px;
+				border:0.78pt solid #dfe0e1;
+				background-color:#faf9f9;
+				padding:30px 17px 5px 19px;
+			}
+			.payCon {
+				overflow:hidden;
+			}
+			.payCon div {
+				float:left;
+			}
+			.payImg{
+				padding-right:7px;
+			}
+			.textTL{
+				float:left;
+			}
+			.textTR{
+				float:right;
+				margin-top:37px;
+				color: #ff6f00;
+				font-size:26px;
+				font-family:'TSansBetaTTFRegular';
+			}
+			.textTR a{
+				float:right;
+				margin-top:24px;
+				color: #ff6f00;
+				font-size:26px;
+				font-family:'TSansBetaTTFRegular';
+			}
+			.textTR01{
+				float:right;
+				margin-top:23px;
+				color: #ff6f00;
+				font-size:26px;
+				font-family:'TSansBetaTTFRegular';
+			}
+			.textTR01 a{
+				float:right;
+				margin-top:15px;
+				color: #ff6f00;
+				font-size:26px;
+				font-family::'TSansBetaTTFRegular';
+			}
+			.textT04{
+				margin:5px 0 5px 0;
+				color: #ff6f00;
+				font-size:17px;
+				font-family:'TSansBetaTTFRegular';
+			}
+			/* 가로 테이블 tableCol */
+			/* 멤버십 할인한도 레인보우 포인트 포인트 내역 입금전용 계좌 세금계산서*/
+			.tableCol{
+				margin-bottom:22px;
+				border-top:1.1pt solid #dfe0e1;
+			}
+			.tableCol table{
+				border-bottom:1.0pt solid #dfe0e1;
+			}
+			.tableCol tbody th,
+			.tableCol tbody td{
+				padding: 5px 0px 6px 10px;
+				text-align: left;
+				border-bottom: 0.78pt solid #dfe0e1;
+				border-left: 0.78pt solid #dfe0e1;
+			}
+			.tableCol td.taR{
+				text-align:right;
+				padding-right:10px;
+			}
+			.tableCol tbody th.first,
+			.tableCol tbody td.first{
+				border-left:0;
+			}
+			.tableCol tbody th.last,
+			.tableCol tbody td.last{
+				border-bottom:0;
+			}
+			.tableCol tbody th{
+				background: #faf9f9;
+			}
+			.tableCol tbody td .text01{
+				color:#f68026;
+			}
+			/* 가로 테이블 tableCol02 */
+			/* 지난달 영수증 */
+			.tableCol02 tbody th{
+				padding: 6px 0 6px;
+				text-align: left;
+				line-height: 120%;
+				letter-spacing: -0.9px;
+				border-bottom: 0.78pt solid #e2e2e2;
+				font-family:'Dotum';
+				color:#686868;
+			}
+			.tableCol02 tbody td{
+				padding: 6px 0 6px;
+				line-height: 120%;
+				border-bottom: 0.78pt solid #e2e2e2;
+			}
+			.tableCol02.rec tbody th {
+					font-size:11px;
+			}
+			.tableCol02 tbody td.rec {
+					font-size: 10px;
+			}
+			.divBox02.rec .fL {
+					padding-left: 5px;
+					width: 46%;
+			}
+			.divBox02.rec .fR {
+					padding-right: 5px;
+					width: 50%;
+			}
+			.tableCol02 .pT8{
+				padding-top:8px;
+			}
+			/* 테이블 부품 */
+			/*테이블 하단 문구*/
+			.tableCommentT1{
+				overflow:hidden;
+				line-height:160%;
+				font-size:10px;
+				padding-top:-22px;
+				margin-bottom:22px;
+				font-family:'Dotum';
+				letter-spacing:-0.9px;
+			}
+			.tableCommentT1 a ,
+			.tableCommentT1 div, 
+			.tableCommentT1 span,
+			.tableCommentT1 p{
+				font-size:10px;
+				font-family:'Dotum';
+				letter-spacing:-0.9px;
+			}
+			.tableComment{
+				margin-top: 5px;
+				/*overflow:hidden;*/
+				line-height:160%;
+				font-family:'Dotum';
+				font-size:10px;
+				letter-spacing:-0.9px;
+			}
+			.tableComment a ,
+			.tableComment div, 
+			.tableComment span,
+			.tableComment p{
+				font-size:10px;
+				font-family:'Dotum';
+				letter-spacing:-0.9px;
+			}
+			.mT1{
+				margin-top:1px;
+			}
+			.mT2{
+				margin-top:2px;
+			}	
+			.tableComment div.taL{
+				float:left;
+				width:50%;
+			}
+			.tableComment div.taR{
+				float:right;
+				width:50%;
+				text-align:right;
+			}
+			.tableComment .mL7{
+				margin-left:9px;
+			}
+			.tableComment .text01{
+				color:#ea002c;
+			}
+			/* div 박스 */
+			/* 고객님을 위한 맞춤 안내 */
+			/*160805 수정*/
+			.divBox01{
+				padding:15px 45px 0px 45px;
+				margin-bottom:22px;
+				border-top:0.75pt solid #dfe0e1;
+				border-bottom:0.75pt solid #dfe0e1;
+				border-right:0.75pt solid #dfe0e1;
+				border-left:0.75pt solid #dfe0e1;
+			}
+			.divBox01 .caseTitle{
+				margin-bottom:2px;
+				line-height:150%;
+				font-family:'Dotum';
+				font-weight:bold;
+				font-size:12px;
+				color:#686868;
+				letter-spacing:-0.9px;
+			}
+			.divBox01 .caseTitle01{
+				margin-bottom:10px;
+				line-height:150%;
+				font-family:'Dotum';
+				font-weight:bold;
+				font-size:12px;
+				color:#686868;
+				letter-spacing:-0.9px;
+			}
+			/*160805 수정*/
+			.divBox01 .caseText{
+				padding:0 0 22px 0px;
+				line-height:150%;
+				letter-spacing:-0.9px;
+				font-size:12px;
+			}
+			/*160728*/
+			.divBox01 .case01{
+				line-height:150%;
+				letter-spacing:-0.9px;
+				font-size:12px;
+			}
+			/* div 박스 02 */
+			/* 지난달 영수증 */
+			.divBox02{
+				overflow:hidden;
+				padding-top:3px;
+				margin-bottom:27px;
+				border-top:1.1pt solid #dfe0e1;
+				border-bottom:1.1pt solid #dfe0e1;
+			}
+			.divBox02 .fL{
+				width:40%;
+				padding-left:10px;
+				float:left;
+			}
+			.divBox02 .fR{
+				width:54%;
+				padding-right:10px;
+				float:right;
+			}
+			.divBox02 .h4{
+				padding:8px 0 3px 0;
+				font-weight:bold;
+				color:#686868;
+				font-size:12px;
+			}
+			.divBox02 .pdS01{
+				padding:6px 0 7px 0;
+			}
+			/* div 박스 03 */
+			/* 멤버십 할인한도 , 레인보우 포인트 */
+			.divBox03{
+				overflow:hidden;
+			}
+			.divBox03 .fL{
+				width:47%;
+				float:left;
+			}
+			.divBox03 .fR{
+				width:47%;
+				float:right;
+			}
+			/* graph 박스 */
+			/* 최근4개월금액 */
+			.graphBox01{
+				/* margin-bottom:22px; */ /*230518삭제*/
+				overflow:hidden;
+			}
+			.graphBox01 .graphTitle{
+				line-height:110%;
+				margin-top:-10px;
+			}
+			.graphBox01 .graphTitle img{
+				width:10px;
+				height:12px;
+				vertical-align:baseline;
+			}
+			.graphBox01 .graphTitle span{
+				margin: 0 5px;
+				font-weight:bold;
+			}
+			.graphBox01 .fL{
+				float:left;
+				width:47%;
+			}
+			.graphBox01 .fR{
+				float:right;
+				width:47%;
+			}
+			.graphBox01 .graphCon{
+				overflow:hidden;
+			}
+			.graphBox01 .graphCon .graphItem{
+				width:25%;
+				float:left;
+				height:120px;
+				overflow:hidden;
+					text-align: center;
+					font-size: 0;
+					/* 230404 하단여백삭제 */
+					margin-bottom: -3px;
+			}
+			.graphBox01 .graphCon .graphItem div {
+			/*    float: left;*/
+					width: 49.5%;
+			}
+			.graphBox01 .graphCon .graphItem p{
+				margin-bottom:6px;
+			}
+			.graphBox01 .graphCon .graphItem01 {
+				text-align: right;
+					float: left;
+			/*    margin-right: 5%;*/
+			}
+			.graphBox01 .graphCon .graphItem02 {
+					text-align: left;
+					float: right;
+			/*    margin-left: 5%;*/
+			}
+			.graphBox01 .graphBot{
+				overflow:hidden;
+				border-top:0.78pt solid #dfe0e1;
+				border-bottom:1.1pt solid #dfe0e1;
+			}
+			.graphBox01 .graphBot div{
+				width:25%;
+				padding:5px 0 5px 0;
+				float:left;
+			}
+			.graphBox01 .graphBot p{
+				text-align:center;
+			}
+			.graphBox01 .graph01{
+				border-top:1.1pt solid #dfe0e1;
+				padding-top:17px;
+				margin-bottom:20px;
+			}
+			.graphBox01 .graphTextBox{
+				/*padding:7px 0 8px 0;*/
+				line-height:130%;
+				border-top:1.1pt solid #dfe0e1;
+				border-bottom:1.1pt solid #dfe0e1;
+			}
+			.graphBox01 .graphTextBox a{
+				letter-spacing:0.5px;
+			}
+			/*161208*/
+			.graphBox01 .graphTextBox01{
+				padding:16px 0 20px 0;/*180719*/
+				line-height:130%;/*180719*/
+				border-top:1.1pt solid #dfe0e1;
+				border-bottom:1.1pt solid #dfe0e1;
+			}
+			.graphBox01 .graphTextBox01 a{
+				letter-spacing:-0.9px;
+			}
+			.graphBox01 .graph02{
+				padding-top:34px;
+				margin-bottom:20px;
+			}
+			/*161208 추가*/
+			.graphBox01 .graphTextBox02{
+				padding:0px 0 4px 0;
+				line-height:130%;
+				border-top:1.1pt solid #dfe0e1;
+				border-bottom:1.1pt solid #dfe0e1;
+			}
+			.graphBox01 .graphTextBox02 a{
+				letter-spacing:-0.9px;
+			}
+			/*161216 추가*/
+			.graphBox01 .graphTextBox03{
+				padding:7px 0 8px 0;
+				line-height:130%;
+				border-top:1.1pt solid #dfe0e1;
+				border-bottom:1.1pt solid #dfe0e1;
+			}
+			.graphBox01 .graphTextBox03 a{
+				letter-spacing:-0.9px;
+			}
+			.graphBox01 .graphTextBox04{
+				padding:7px 0 8px 0;
+				line-height:130%;
+				border-top:1.1pt solid #dfe0e1;
+				border-bottom:1.1pt solid #dfe0e1;
+			}
+			.graphBox01 .graphTextBox04 a{
+				letter-spacing:-0.9px;
+			}
+			/*180719*/
+			.graphBox01 .graphTextBox03 .findfeeH{
+				padding:8px 0 11px 0;
+			}
+			.graphBox01 .graphTextBox03 .findfeeH a{
+				letter-spacing:0;
+			}
+			.graphTextBox01 .findfeeH01{
+				padding:13px 0;
+			}
+			.graphTextBox01 .findfeeH01 a{
+				letter-spacing:0;
+			}
+			/*170109*/
+			.graphBox01_fee {
+				height:95px;
+			}
+			/* eng 박스 */
+			/* 무선_eng */
+			.engBox{
+				overflow:hidden;
+				padding-top:4px;
+				border-top:1.1pt solid #dfe0e1;
+				border-bottom:1.1pt solid #dfe0e1;
+			}
+			.engBox .fL{
+				float:left;
+				width:50%;
+				font-size:12px;
+			}
+			.engBox .fR{
+				float:right;
+				width:50%;
+				text-align:right;
+			}
+			.engBox .bg{
+				background:#fef7ec;
+			}
+			.engBox .bgF{
+				background:#ffffff;
+			}
+			.engBox .engTitle{
+				/* overflow:hidden; */
+				padding:0 28px 0 29px;
+				margin-bottom:2px;
+			}
+			.engBox .engTitle div{
+				font-weight:bold;
+				font-size:14px;
+			}
+			.engBox .engUl{
+				margin-bottom:0px;
+			}
+			.engBox .engTitle .fL,
+			.engBox .engTitle .fR{
+				padding:6px 0 4px 0;
+				border-bottom:0.78pt solid #000;
+				font-size:14px;
+				color:#686868;
+			}
+			.engBox .engLi{
+				overflow:hidden;
+				padding:10px 28px 10px 29px;
+			}
+			.engBox .engLiR{
+				overflow:hidden;
+				padding:5px 28px 10px 38px;
+			}
+			.engBox .engLi .engTh{
+				width:100%;
+				font-size:12px;
+			}
+			.engBox .engLi .fwB {
+				font-weight:bold;
+				color:#686868;
+			}
+			.engBox .engBot{
+				overflow:hidden;
+				padding:0 29px 1px 29px;
+			}
+			.engBox .engBot div{
+				font-size:14px;
+				font-weight:bold;
+			}
+			.engBox .engBot .fL,
+			.engBox .engBot .fR{
+				margin-bottom: -1px;
+				padding:7px 0 5px 0;
+				border-bottom: double #ef7709;
+				color:#ef7709;
+				font-size:14px;
+			}
+			.engBox .bBR{
+				/* border-bottom:0.78pt solid #ef7709;
+				padding-top:2px; */
+			}
+			.engBox .bBB{
+				border-bottom:0.78pt solid #000;
+				padding-top:2px;
+			}
+			.engBox .fwB{
+				font-weight:bold;
+			}
+			.engBox .fwB div{
+				font-weight:bold;
+			}
+			/*160628*/
+			/*해지양도인미납*/
+			.CancelboxType{
+				overflow:hidden;
+				margin-bottom:22px;
+			}
+			.CancelboxTypeL{
+				width:236px; 
+				float:left; 
+				padding-right:8px;
+			}	
+			.CancelboxType .CancelboxTypeL .Cancelsum .size2l{
+				font-family:'TSansBetaTTFRegular';
+				font-size:13px;
+				font-weight:bold;
+				color:#585755
+			}
+			/*160908 수정*/
+			.CancelboxType .CancelboxCon{
+				height:207px;
+				margin-bottom:10px;
+				overflow:hidden;
+			}
+			.CancelboxType .CancelboxTypeL .taL{
+				float:left;
+				letter-spacing:-0.9px;
+			}
+			.CancelboxType .CancelboxTypeL .taR{
+				float:right;
+			}
+			.CancelboxType .CancelboxCon .taL,
+			.CancelboxType .CancelboxCon .taR{
+				width:49%;
+				display:block;
+				padding-bottom:3px;
+			}
+			/*이번달금액*/
+			.CancelboxTypeLIn{
+				border:1.5pt solid #3fa59b;
+				background:#fff;
+				overflow:hidden;
+				padding:10px;
+				height:303px;
+			}
+			.CancelboxTypeL .CancelboxTitle{
+				border-bottom:1pt solid #aed5d0; 
+				margin-bottom:10px;
+			}
+			.CancelboxTypeL .size1l{
+				font-size:15px;
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+				color:#3fa59b;
+				letter-spacing:0px;
+				padding-left:4px;
+				text-align:center;
+				padding-bottom:10px;
+			}
+			/*미납금액*/
+			.CancelboxTypeLIn01{
+				border:1.5pt solid #85756d;
+				background:#fff;
+				overflow:hidden;
+				padding:10px;
+				height:303px;
+			}
+			.CancelboxTypeL .CancelboxTitle01{
+				border-bottom:1pt solid #d3cbc7; 
+				margin-bottom:10px;
+			}
+			.CancelboxTypeL .size3l{
+				font-size:15px;
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+				color:#85756d;
+				letter-spacing:0px;
+				padding-left:4px;
+				text-align:center;
+				padding-bottom:10px;
+			}
+			/*납부하실 금액*/
+			.CancelboxTypeLIn02{
+				border:1.5pt solid #ee7506;
+				background:#fff;
+				overflow:hidden;
+				padding:10px;
+				height:152px;
+			}
+			.CancelboxTypeL .CancelboxTitle02{
+				border-bottom:1pt solid #f4a55d; 
+				margin-bottom:40px;
+			}
+			.CancelboxTypeL .size4l{
+				font-size:15px;
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+				color:#ee7506;
+				letter-spacing:0px;
+				padding:0 0 10px 4px;
+				text-align:center;
+			}
+			.CancelboxTypeL .Cancelsum{
+				overflow:hidden;
+			}
+			.CancelboxTypeL .size5l{
+				font-family:'TSansBetaTTFRegular';
+				font-size:17px;
+				font-weight:bold;
+				color:#585755;
+				margin-bottom:40px;
+			}
+			.CancelboxTypeL.last{
+				width:228px;
+				padding:0;
+				margin-bottom:121px;
+				float:right; 
+			}
+			/* 200205 */
+			.h3.of {
+					overflow: visible;
+			}
+			.h3.of p {
+					font-size: 18px;
+			}
+			.roamBox .memberInfo {
+					height:24px;
+					text-align: right;
+					margin-bottom: 5px;
+			}
+			.roamBox .memberInfo p {
+					font-size:15px;
+					font-family: 'Dotum';
+					letter-spacing: -0.9px;
+			}
+			.roamBox .memberInfo .tel {
+					margin-right:5px;
+					color:#4e4e4e;
+					font-size:15px;
+					font-family: 'TSansBetaTTFRegular';
+					letter-spacing:0px;
+			}
+			.roamBox .caseTitle01 {
+					margin-bottom: 10px;
+					line-height: 150%;
+					font-family: 'Dotum';
+					font-weight: bold;
+					font-size: 12px;
+					color: #686868;
+					letter-spacing: -0.9px;
+			}
+			.roamBoxTable {
+					padding-bottom:22px;
+					border-top: 1.1pt solid #dfe0e1;
+			}
+			.roamBoxTable table {
+					border-bottom: 0.9pt solid #dfe0e1;
+			}
+			.roamBoxTable thead th {
+					padding: 5px 0px 4px 0px;
+					line-height: 130%;
+					background: #faf9f9;
+					vertical-align: middle;
+					border-left: 0.78pt solid #dfe0e1;
+					border-bottom: 0.78pt solid #dfe0e1;
+					font-family: 'Dotum';
+					color: #686868;
+					letter-spacing: -0.9px;
+			}
+			.roamBoxTable tbody td {
+					padding: 5px 0 6px 0;
+					border-left: 0.78pt solid #dfe0e1;
+					border-bottom: 0.78pt solid #dfe0e1;
+					word-break: break-all;
+					word-wrap: break-word
+			}
+			.roamBoxTable tbody td.taR {
+					padding-right: 10px;
+			}
+			.roamBoxTable thead th.first, .roamBoxTable tbody td.first {
+					border-left: 0
+			}
+			.roamBoxTable tbody td.emp {
+					font-size: 15px;
+					font-weight: bold;
+			}
+			.roamBoxFoot .roamBoxDate {
+					font-size: 16px;
+					font-weight:bold;
+			}
+			.roamBoxFoot .roamBoxStamp {
+					height: 30px;
+					margin-top: 10px;
+			}
+			.roamBoxFoot .roamBoxStamp p {
+					font-size:18px;
+					line-height: 30px;
+					font-weight:bold;
+					vertical-align: top;
+			}
+			.roamBoxFoot .roamBoxStamp p span {
+					font-size:18px;
+					line-height:30px;
+			}
+			.roamBoxFoot .roamBoxStamp img {
+					height: 30px;
+					vertical-align: top;
+			}
+			/*공통 하단*/
+			.footer{
+				width:700px;
+					height: 80px; /*230410추가*/
+				margin-top:30px;
+				padding-top:15px;
+				border-top:0.78pt solid #dfe0e1;
+			}
+			.footer .footerL{
+				float:left;
+				padding-top:8px;
+				padding-bottom: 20px;
+			}
+			/*161116 수정*/
+			.footer .footerR{
+				float: left;
+				padding:8px 0 20px 40px;
+			}
+			.footer .footerR p{
+				font-family:'TSansBetaTTFRegular';
+				font-size:10px;
+				line-height:160%;
+				color:#686868;
+			}
+			.footer .footerR span{
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+				font-size:10px;
+				color:#686868;
+			}
+			.footer .footerR_Cancel{
+				float:right;
+				padding:10px 190px 0 0;
+			}
+			.footer .footerR_Cancel p{
+				font-family:'TSansBetaTTFRegular';
+				font-size:10px;
+				line-height:160%;
+				color:#686868;
+			}
+			.footer .footerR_Cancel span{
+				font-family:'TSansBetaTTFRegular';
+				font-weight:bold;
+				font-size:10px;
+				color:#686868;
+			}
+    </style>
+</head>
+<body>
+<h1>기본내역</h1>
+<div class="headerWrap">
+	<div class="headerright">
+		<div class="topbg">
+			<img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/10.gif" width="700px" height="168px"/>
+		</div>
+		
+	</div>
+</div>
+<!--// logo -->
+<!-- 기본 정보 -->
+<div class="skMember">
+	<div class="date">
+		<div class="year">2023. 6.</div>
+		<div class="detailDay">
+			<div>이용기간 : 2023. 5. 1. ~ 5. 31. </div>
+			<div>작성일 : 6. 3. </div>
+		</div>
+	</div>
+    	            		    
+                                                     
+                     	<div class="name">
+            010-**27-6642&nbsp;
+      문한식&nbsp;<span class="tel">고객님</span>
+    </div>
+		
+</div>
+<!-- // 기본 정보 -->
+<!--통신서비스요금-->
+<div bookmark="통신서비스요금" bklevel="1" />
+<div class="boxType02">
+	<div class="boxType02L">
+		<div class="boxType02LIn">
+			<div class="boxTitle">
+				<div class="imgN"><img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/1.gif" width="17.9px" height="17.9px" /></div>
+				<div class="size1l">통신서비스요금</div>
+			</div>
+			<div class="size2l">40,910</div>
+		</div>
+	</div>
+	<div class="tableRow00">
+		<table>
+			<colgroup>
+        <col width="232.5px" />
+        <col width="232.5px" />
+			</colgroup>
+			<tbody>
+  				<tr>
+					<td class=" first">
+						<div class="taL">월정액</div>
+						<div class="taR">53,637</div>
+					</td>
+				         					<td>
+						<div class="taL">요금할인</div>
+						<div class="taR">-16,574</div>
+					</td>
+				</tr>
+						     				<tr>
+					<td class=" first">
+						<div class="taL">부가가치세(세금)*</div>
+						<div class="taR">3,847</div>
+					</td>
+				      
+    
+					<td>
+						<div class="taL"></div>
+						<div class="taR"></div>
+					</td>
+									
+				</tr>				
+   
+			</tbody>
+		</table>
+	</div>
+</div>
+<!--//통신서비스요금 끝-->
+<!--휴대폰구입비(할부)-->
+	<div bookmark="휴대폰구입비(할부)" bklevel="1" />
+	<div class="boxType05">
+		<div class="boxType05L">
+			<div class="boxType05LIn">
+				<div class="boxTitle">
+					<div class="imgN"><img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/2.gif" width="17.9px" height="17.9px" /></div>
+					<div class="size1l">휴대폰구입비(할부)</div>
+				</div>
+				<div class="size2l">63,740</div>
+			</div>
+		</div>
+	<div class="tableRow00">
+		<table>
+			<colgroup>
+        <col width="232.5px" />
+        <col width="232.5px" />
+			</colgroup>
+			<tbody>
+						
+													
+     				
+				<tr>
+					<td class=" first">
+						<div class="taL">분할상환금</div>
+						<div class="taR">63,740</div>
+					</td>
+				    					
+    
+    
+					<td>
+						<div class="taL"></div>
+						<div class="taR"></div>
+					</td>
+				</tr>
+									
+  			</tbody>
+		</table>
+	</div>
+</div>
+<!--부가사용금액-->
+<div bookmark="부가사용금액" bklevel="1" />
+<div class="boxType04">
+	<div class="boxType04L">
+		<div class="boxType04LIn">
+			<div class="boxTitle">
+				<div class="imgN"><img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/3.gif" width="17.9px" height="17.9px" /></div>
+				<div class="size1l">부가사용금액</div>
+			</div>
+			<div class="size2l">10,090</div>
+		</div>
+	</div>
+	<div class="tableRow00">
+		<table>
+			<colgroup>
+        <col width="232.5px" />
+        <col width="232.5px" />
+			</colgroup>
+			<tbody>
+						
+													
+     				
+				<tr>
+					<td class=" first">
+						<div class="taL">부가서비스이용료</div>
+						<div class="taR">1,400</div>
+					</td>
+				    					
+        
+					<td>
+						<div class="taL">콘텐츠이용료<b style='color:red;'>(#)</b></div>
+						<div class="taR">8,690</div>
+					</td>
+				</tr>
+									
+		  					
+    
+ 			</tbody>
+		</table>
+	</div>
+</div>
+<!--//부가사용금액 끝-->
+<div bookmark="기타요금" bklevel="1" />
+<div bookmark="미납금액" bklevel="1" />
+<div class="boxType07">
+	<div class="boxType07WWrap">
+		<div class="boxType07Wrap">
+			<div class="boxType07L">
+				<div class="boxType07LIn">
+				<div class="boxTitle">
+					<div class="imgN"><img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/4.gif" width="18.2px" height="18.2px" /></div>
+					<div class="size1l">기타요금</div>
+				</div>
+				<div class="size2l">0</div>
+			</div>
+		</div>
+	</div>
+	<!--// 단말기할부금 끝-->
+	<!--회색박스상세내역-->
+	<div class="tableRow00T1In">
+		<div class="tableRow00T1">
+			<table>
+				<colgroup>
+          <col width="232.5px" />
+          <col width="232.5px" />
+				</colgroup>
+				<tbody>
+ 						
+				</tbody>
+			</table>
+		</div>
+		</div>		
+	<div class="tableComment lsComment">
+		<span class="text01 fwB">(#)</span>로 표기된 요금은 당사에서 휴대폰 요금에 합산하여 안내해드리는 <span class="text01 fwB">타사 이용금액</span>입니다.<br/> 		 '*'표시 항목은 부가가치세 제외 대상입니다.
+	</div>
+	</div>
+	<!--//회색박스상세내역 끝-->
+	<!--미납금액-->
+	<div class="boxType06L">
+		<div class="boxType06LIn">
+			<div class="boxTitle">
+				<div class="imgN"><img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/5.gif" width="18.2px" height="18.2px" /></div>
+				<div class="size1l">미납금액</div>
+			</div>
+			<div class="size2l">0</div>
+		</div>
+	</div>
+	<div class="boxType03">
+		<div class="boxType03In">
+			<div class="boxType03L">
+				<div><span class="fontType01">납기일</span> </div>
+			</div>
+			<div class="boxType03R">2023. 6. 26.</div>
+		</div>
+		<div class="tableComment taL type03 safari">당월 이후 납부시 2% 가산금이 2개월 후에 청구됩니다.</div>
+	</div>
+	<!--//미납금액 끝-->
+</div>
+		<!-- 이번 달 납부 금액 정보 -->
+	<div class="textBox01">
+		<div class="textBoxIn">
+			<div class="taL pT2">
+				<span class="Boxdate">납부하실 금액은</span>
+			</div>
+			<div class="taL pL6 pT2"><img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/sum.gif" width="24.9px" height="22.9px" /></div>
+			<div class="taL pL6 telFee"><span class="telFeeSum">총 114,740원</span>입니다.</div>
+		</div>
+	</div>
+<!-- // 이번 달 납부 금액 정보 -->
+	
+<!-- 주소/연락처 -->
+			
+<div bookmark="주소/연락처" bklevel="1" />
+<div class="h3">
+	<div class="taL"><p>주소/연락처</p></div>
+		<div class="taR linkT"><a href="http://www.tworld.co.kr/tglink.jsp?urlname=ebill_001" target="_blank">변경하기 ▷</a></div>
+			</div>
+<div class="tableRow">
+	<table>
+		<colgroup>
+      <col width="350px" />
+      <col width="350px" />
+		</colgroup>
+		<tbody>
+			<tr>
+				<td class="first">
+					<div class="taL">주소</div>
+					<div class="taR lsK">서울 서초구 법******** &nbsp;</div>
+				</td>
+				<td>
+					<div class="taL" >연락처</div>
+					<div class="taR lsN">02-**6-4500&nbsp;</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>	
+</div>
+<!-- 주소/연락처 -->
+<!-- 납부정보 -->
+<!-- 추가인출일1 =null "-"표기 -->
+<div bookmark="납부정보" bklevel="1" />
+<div class="h3">
+	<div class="taL"><p>납부정보</p></div>
+	<div class="taR linkT"><a href="http://www.tworld.co.kr/tglink.jsp?urlname=ebill_002">납부하기 ▷</a></div>
+</div>
+<!-- 납부정보 자납 -->
+<div class="tableRow">
+	<table>
+		<colgroup>
+      <col width="350px" />
+      <col width="350px" />
+		</colgroup>
+		<tbody>
+			<tr>
+				<td class="first mR8">
+					<div class="taL">자동납부접수번호</div>
+					<div class="taR lsN">2000003505</div>
+														
+					<div class="taL">인출예정일</div>
+					<div class="taR lsN">2023. 6. 26.</div>
+														
+					<div class="taL">추가인출일</div>
+					
+					
+					
+					
+					<div class="taR letterS">6.28.∼7.4./7.6./7.11.   </div>
+				</td>
+				<td class="last  mR8">
+									
+					<div class="taL">은행명</div>
+					
+					
+					<div class="taR lsK">신한은행&nbsp;</div>
+									
+					<div class="taL">예금주명</div>
+					
+					
+					<div class="taR  cn">문한식&nbsp;</div>
+									
+    			<div class="taL">계좌번호</div>
+					<div class="taR  lsK">고객요청으로 미표기&nbsp;</div>    			
+					
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<!--//납부정보 자납 -->
+<!-- 납부정보 입금전용(가상) -->
+<!-- 입금전용 계좌 -->
+			  
+<div bookmark="이용중인 요금제" bklevel="1" />
+<div bookmark="약정기간" bklevel="1" />
+<div bookmark="내게 맞는 요금제 찾기" bklevel="1" />
+<div class="graphBox01" style="margin-bottom:0;">
+	<div class="fL">
+		<div class="graphBox01_fee">
+			<div class="h3">
+				<div class="taL"><p>이용중인 요금제</p></div>
+			</div>
+			<!--161208, class명 변경-->
+			<div class="graphTextBox02">
+				<div class="usefont">
+					베이직플러스				</div>
+			</div>
+		<div class="tableComment">&nbsp;</div>
+		</div>
+		<div class="graphBox01" style="margin-bottom: 22px;">
+			<div class="h3">
+				<div class="taL"><p>약정기간</p></div>
+			</div>
+			<div class="graphTextBox02">
+				<div class="usefont01">
+         2022. 8. 23. ~ 2024. 8. 22.				</div>
+			</div>
+		</div>
+	</div>
+	<div class="fR" style="margin-bottom: 22px;">
+		<div class="h3">
+			<div class="taLtypeA"><p>내게 맞는 요금제 찾기</p></div>
+			<div class="taRtypeA linkT"></div>
+		</div>
+		<div class="graphTextBox01">
+			<div class="findfeeH01">
+				<a href="http://www.smartchoice.or.kr"  style="letter-spacing:0;"> http://www.smartchoice.or.kr > 스마트 가이드 > <br/>이동전화 요금제 추천</a>
+			</div>
+		</div>
+	</div>
+	<!-- // 이용중인 요금제 , 내게 맞는 요금제 찾기 -->
+</div>
+<!-- // 정규지로가상단수 -->
+<!-- 최근 4개월 금액 -->
+    <!-- 최근 4개월 금액 -->
+  <div bookmark="최근 4개월 금액" bklevel="1" />
+  <!-- 자납 -->
+  <div class="graphBox01">
+      <div class="h3">
+          <p>최근 4개월 금액</p>
+      </div>
+      <div class="graphBox01In">
+          <div class="graph01">
+              <div class="graphTitle">
+                  <img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/colorImage_02.gif" /><span>총이용금액</span>
+                  <img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/colorImage.gif" /><span>통신서비스요금</span>
+              </div>
+              <div class="graphCon">
+                <div class="graphItem">
+                  <!-- div에 padding-top 값과 이미지의 height 를 조절하시면 됩니다. -->
+                  <div class="graphItem01"  style="padding-top:1.0px;">
+                    <p>&nbsp;135,880</p>
+                      <img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/bulletBar_02.gif" width="15" height="97.0" />
+                  </div>
+                  <div  class="graphItem02"  style="padding-top:57.0px;">
+                    <p>&nbsp;58,050</p>
+                   <img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/bulletBar.gif" width="15" height="41.0" />					
+                  </div>
+                </div>
+                <div class="graphItem">
+                  <div   class="graphItem01" style="padding-top:13.0px;">
+                    <p>&nbsp;118,970</p>
+                    <img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/bulletBar_02.gif" width="15" height="85.0" />
+                  </div>
+                  <div   class="graphItem02"style="padding-top:69.0px;">
+                    <p>&nbsp;41,140</p>
+                    <img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/bulletBar.gif" width="15" height="29.0" />
+                  </div>
+                </div>
+                <div class="graphItem">
+                  <div  class="graphItem01" style="padding-top:14.0px;">
+                    <p>&nbsp;117,820</p>
+                    <img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/bulletBar_02.gif" width="15" height="84.0" />
+                  </div>
+                  <div   class="graphItem02" style="padding-top:69.0px;">
+                    <p>&nbsp;41,190</p>
+                    <img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/bulletBar.gif" width="15" height="29.0" />
+                  </div>
+                </div>
+                <div class="graphItem">
+                  <div class="graphItem01" style="padding-top:16.0px;">
+                    <p>&nbsp;114,740</p>
+                    <img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/bulletBar_02.gif" width="15" height="82.0" />
+                  </div>
+                  <div class="graphItem02" style="padding-top:69.0px;">
+                    <p>&nbsp;40,910</p>
+                    <img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/bulletBar.gif" width="15" height="29.0" />
+                  </div>
+                </div>
+              </div>
+              <div class="graphBot">
+                  <div>
+                      <p>2023년  3월</p>
+                  </div>
+                  <div>
+                      <p>2023년  4월</p>
+                  </div>
+                  <div>
+                      <p>2023년  5월</p>
+                  </div>
+                  <div>
+                      <p>2023년  6월</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+<!-- // 최근 4개월 금액 -->
+<!-- 이용량 -->
+   <!-- 이용량 안내 -->
+<div bookmark="이용량 안내" bklevel="1" />
+<div class="h3">
+	<p>이용량 안내</p>
+</div>
+<div class="tableRow03A">
+	<table>
+		<colgroup>
+        <col width="175px" />
+        <col width="175px" />
+        <col width="175px" />
+        <col width="175px" />
+		</colgroup>
+		<thead>
+			<tr>
+				<th class="first ">구분</th>
+				<th>총 이용량</th>
+				<th>요금제 제공량</th>
+				<th>요금제 이용량</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr id="use_voc">
+				<th class="first">음성통화</th>
+				<td>584분 36초</td>
+				<td>집전화·이동전화 무제한</td>
+				<td>584분 36초</td>
+			</tr>			
+                    <tr id="use_smc">
+				<th class="first">문자(건수)</th>
+				
+        <td>134건</td>
+    
+       
+        <td>0건</td>
+  
+        
+        <td>134건</td>
+   
+                    
+      </tr>
+      
+  
+			<tr id="use_data">
+				<th class="first bb1" >데이터</th>
+        <!--style="border-top:1.1pt solid #dfe0e1;"-->				
+                <td class="bb1">25.55GB</td>
+      				
+        
+    
+          <td class="bb1">24.00GB</td>
+    
+            <td class="bb1">24.00GB</td>
+  				
+			</tr>
+			
+    
+  			<tr>
+				<td class="first">
+					남은 데이터량
+				</td>
+				<td class="leftN">
+									0.00GB				</td>
+							 				<td>
+					요금제 이용량 외
+				</td>
+				<td class="leftN">
+					1.55GB				</td>
+			</tr>			   
+				</tbody>
+	</table>
+	<div class="tableComment">
+		 	 	 
+    	  	 		           	 	 * 데이터 총 이용량은 실제 이용량이며, 요금제 이용량은 할인이 적용되어 표기됩니다.
+	 	           			  	 	 <br/>
+	    * 요금제 이용량 외 : 요금제 이용량에 포함되지 않는 리필, 선물 받기, 일2G 무료, 초과 데이터량 등
+      	</div>	
+</div>
+<!-- // 이용량 안내 -->
+<!-- 최근 이용량 -->
+<div bookmark="최근 이용량" bklevel="1" />
+<div class="h3">
+	<p>최근 이용량</p>
+</div>
+<div class="tableRow03">
+	<table>
+		<colgroup>
+      <col width="140px" />
+      <col width="140px" />
+      <col width="140px" />
+      <col width="140px" />
+      <col width="140px" />
+		</colgroup>
+		<thead>
+			<tr>
+				<th class="first">구분</th>
+				<th>3개월 평균</th>
+				<th>2023년  3월</th>
+				<th>2023년  4월</th>
+				<th>2023년  5월</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th class="first">
+					음성통화
+				</th>
+        <td>593분 27초</td>        
+        <td>690분 8초</td>
+        <td>505분 38초</td>
+        <td>584분 36초</td>
+			</tr>
+			<tr>
+				<th class="first">데이터</th>
+        <td>15.74GB</td>        
+        <td>8.69GB</td>
+        <td>12.97GB</td>
+        <td>25.55GB</td>
+			</tr>
+			<tr>
+				<th class="first">문자</th>
+        <td >95건</td>        
+        <td >72건</td>
+        <td >78건</td>
+        <td >134건</td>
+			</tr>
+			
+		</tbody>
+	</table>
+	<div class="tableComment">
+		* 데이터 이용량은 할인이 적용되지 않은 실제 총 이용량입니다.(예>심야 10MB 이용 시 50% 할인 적용되지 않고 10MB 로 표기)
+	</div>
+</div>
+<!-- // 최근 이용량 -->
+<!-- // 기본내역 -->
+<!-- 상세내역 -->
+<!-- 이용 상세 내역 -->
+<h1>이용요금 상세안내</h1>
+<!-- 이용요금 상세안내 -->
+<!-- div autopage="true" -->
+<div bookmark="이용요금 상세안내" bklevel="1"></div>
+<div class="h3">
+	<div class="taL"><p>이용요금 상세안내</p></div>
+</div>
+<div class="tableRow05">
+	<table>
+		<colgroup>
+      <col width="350px" />
+      <col width="350px" />
+		</colgroup>
+		<tbody>
+			<tr>
+        <td class="first">			
+               
+        <div class="tdListTitle">
+          <div class="taL">통신서비스요금</div>
+          <div id="H" class="taR">40,910</div>
+        </div>
+        
+        <div class="tdListDepth01">
+             
+                                     
+      
+   
+   
+                 
+      
+      <div class="tdListTitle02">월정액</div>
+      <div id="A" class="tdListDepth02">
+      
+                                                                    
+          <div class="taL">월정액</div>
+          <div class="taR">53,637</div>
+            
+   
+   
+                 
+      
+   
+   
+                                
+              </div>
+              
+                            
+              <div class="tdListTitle02">요금할인</div>
+              <div id="G" class="tdListDepth02">
+              
+                                                       <div class="taL">온가족 할인</div>
+            <div class="taR">-16,091</div>
+   
+                
+      
+   
+   
+                <div class="taL">자동납부할인</div>
+            <div class="taR">-476</div>
+   
+                
+      
+   
+   
+                <div class="taL">원단위조정금액*</div>
+            <div class="taR">-7</div>
+   
+                
+      
+   
+   
+                                    </div>
+                                <div class="tdListTitle02">부가가치세(세금)*</div>
+            <div id="L" class="tdListDepth02">
+            <div class="taL">부가세총액*</div>
+            <div class="taR">5,504</div>
+             
+      
+   
+   
+                <div class="taL">할인부가세*</div>
+            <div class="taR">-1,657</div>
+                                                  </div>
+               </div>
+               </td>
+               <td>
+                <div class="tdListTitle">
+          <div class="taL">휴대폰구입비(할부)</div>
+          <div id="X" class="taR">63,740</div>
+         </div>
+     <div class="tdListDepth01">
+                                                                        <div class="tdListTitle02">분할상환금</div>
+          <div id="2" class="tdListDepth02">
+                              <div class="taL">단말기분할상환금*</div>
+              <div class="taR">59,220</div>
+                                                  <div class="taL">단말분할상환수수료*</div>
+              <div class="taR">4,520</div>
+                                                            </div>
+               </div>
+                    <div class="tdListTitle">
+            <div class="taL">부가사용금액</div>
+            <div id="S" class="taR">10,090</div>
+          </div>
+          
+          <div class="tdListDepth01">
+          
+                  <div class="tdListTitle02">부가서비스이용료</div>
+          <div id="F" class="tdListDepth02">
+            <div class="taL">컬러링</div>
+            <div class="taR">900</div>
+          
+               <div class="taL">콜키퍼</div>
+            <div class="taR">500</div>
+          
+                                   </div>
+                                
+          <div class="tdListTitle02">콘텐츠이용료<b style='color:red;'>(#)</b></div>
+          <div id="E" class="tdListDepth02">
+          
+            <div class="taL">구글플레이콘텐츠*</div>
+            <div class="taR">8,690</div>
+          
+                
+                                </div>
+               </div>
+               
+                             					<div class="tdListLast02">
+						<div class="taL">
+							납부하실 금액
+						</div>
+						<div class="taR">
+							114,740						</div>
+					</div>
+					<div class="tdListLastB">
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="tableComment">
+    <span class="text01 fwB">(#)</span>로 표기된 요금은 당사에서 휴대폰 요금에 합산하여 안내해드리는 <span class="text01 fwB">타사 이용금액</span>입니다.<br/>		 '*'표시 항목은 부가가치세 제외 대상입니다.
+	</div>
+</div>
+<!-- /div -->
+<!-- 할인 상세내역 -->
+<div bookmark="할인 상세내역" bklevel="1" />
+<div class="h3">
+	<p>
+		할인 상세내역
+	</p>
+</div>
+<div class="tableRow03">
+	<table>
+		<colgroup>
+      <col width="147px" />
+      <col width="91px" />
+      <col width="462px" />
+		</colgroup>
+		<thead>
+			<tr>
+				<th class="first">항목</th>
+				<th>금액</th>
+				<th>상세설명</th>
+			</tr>
+		</thead>
+		<tbody>
+ 			<tr>
+				<td class="first taL" >
+					온가족 할인				</td>
+				<td class="taR">
+					-16,091&nbsp;
+				</td>
+				<td class="taL lsK">
+					온가족 결합된 가족합산 가입년수별 월정액 10~50% 할인				</td>
+			</tr>
+  			<tr>
+				<td class="first taL" >
+					자동납부할인				</td>
+				<td class="taR">
+					-476&nbsp;
+				</td>
+				<td class="taL lsK">
+					은행자동납부로 인출된 월정액, 통화료 등의 금액에 대한 1% 할인				</td>
+			</tr>
+  			<tr>
+				<td class="first taL" >
+					원단위조정금액*				</td>
+				<td class="taR">
+					-7&nbsp;
+				</td>
+				<td class="taL lsK">
+					서비스별 청구금액의 원단위 금액 조정				</td>
+			</tr>
+  		</tbody>
+		<tfoot>
+			<tr>
+				<th class="first taC sumFont bTN">
+					합계				</th>
+				<td class="taR fwB sumFont bTN">
+					-16,574&nbsp;
+				</td>
+				<td class="taL bTN"></td>
+			</tr>
+		</tfoot>      
+    	</table>
+	<div class="tableComment">
+		 '*'표시 항목은 부가가치세 제외 대상입니다.
+	</div>
+</div>
+<!-- // 할인 상세내역 -->
+<!-- 콘텐츠이용료 상세내역 -->
+<div bookmark="콘텐츠이용료 상세내역(타사금액)" bklevel="1" />
+<div class="h3">
+	<p>콘텐츠이용료 상세내역<span class="h3_textB">(타사금액)</span></p>
+</div>
+<div class="tableRow08">
+	<table>
+		<colgroup>
+      <col style="width:105px" />
+      <col style="width:77px" />
+      <col style="width:140px" />
+      <col style="width:91px" />
+      <col style="width:105px" />
+      <col style="width:84px" />
+      <col style="width:98px" />
+		</colgroup>
+		<thead>
+			<tr>
+				<th class="first">결제일시</th>
+				<th>결제금액</th>
+				<th>이용서비스</th>
+				<th>이용서비스업체</th>
+				<th>이용내역문의처</th>
+				<th>구분</th>
+				<th>고객센터</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+                      			<tr>
+				<td class="first">5. 26. (13:17)</td>
+				<td class="taR">8,690</td>
+				<td class="lsK">YouTube Premium</td>
+				<td class="lsK">GOOGLE</td>
+				<td >http://g.co/h</td>
+				<td class="lsK">구글플레이콘텐츠*</td>
+  			<td >080-085-1500</td>
+			</tr>
+			
+            		</tbody>
+		<tfoot>
+<tr>
+    <td class="taC">합계</td>
+    <td class="fwB taR">8,690</td>
+    <td colspan="5">&nbsp;</td>
+</tr>
+		</tfoot>
+			
+	</table>
+	<div class="tableComment">
+		* 대표번호와 명의가 다른 서비스의 상세내역은 표기 되지 않습니다.<br/>
+		* 콘텐츠이용료 상세내역 금액은 소수점 절사 등의 사유로 청구금액과 다를 수 있으며, 상세내역은 최대 100건까지 표시됩니다.
+	</div>				
+</div>
+<!-- // 콘텐츠이용료 상세내역 -->
+ 
+     <!-- 지난달 영수증 -->
+<div bookmark="지난달 영수증" bklevel="1" />
+<div class="h3">
+	<p>지난달 영수증</p>
+</div>
+<div class="divBox02  rec">
+	<div class="fL">
+		<div class="tableCol02 rec">
+			<table>
+				<colgroup>
+          <col width="80.5px" />
+          <col width="241.5px" />
+				</colgroup>
+				<tbody>
+					<tr>
+						<th>고객번호</th>
+						<td>010-**27-6642</td>
+					</tr>
+					<tr>
+						<th>고객명</th>
+						<td class="lsK rec">문한식</td>
+					</tr>
+					<tr>
+						<th>금융기관명</th>
+						<td>신한은행</td>
+					</tr>
+					<tr>
+						<th>결제고객명</th>
+						<td  class="lsK rec">문한식</td>
+					</tr>
+					<tr>
+						<th>계좌(카드)번호</th>
+						<td>고객요청으로 미표기</td>
+					</tr>
+					<tr>
+						<th>공급자등록번호</th>
+						<td>104-81-37225</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="taC pT8 mb12">
+				<img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/logoSk.gif" width="155px" height="26px" />
+			</div>
+		</div>
+	</div>
+	<div class="fR">
+		<p class="h4 pdS01">납부내역</p>
+		<div class="tableRow08 mb12">
+			<table>
+				<colgroup>
+          <col width="115.5px" />
+          <col width="115.5" />
+          <col width="119px" />
+				</colgroup>
+				<thead>
+					<tr>
+						<th class="first">청구월</th>
+						<th>납부일</th>
+						<th>납부금액</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="first">2023. 5.</td>
+						<td>2023. 5. 26.</td>
+						<td>117,820</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="tableComment">
+				<p>* 잔고 부족, 한도초과 등의 사유로 연속 미인출될 경우 다른 납부방법<br/> &nbsp;&nbsp;(지로/입금전용 계좌)으로
+				변경될 수 있습니다.</p>
+			</div>
+      <div class="tableComment mT5">  
+          <p>* 온라인/모바일 T world에서 영수증 재발행 가능합니다.</p>
+      </div>
+			<div class="tableComment mT10">
+				<p  >* 지난달에도 잊지않고 이용요금을 납부해 주셔서 진심으로 감사드립니다.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- // 지난달 영수증 -->
+<!--160628 tablecomment 수정-->
+<!-- 세금계산서 -->
+<div bookmark="세금계산서" bklevel="1" />
+<div class="h3">
+	<p>
+		세금계산서
+	</p>
+</div>
+<div class="tableCol">
+	<table>
+		<colgroup>
+      <col width="168px" />
+      <col width="182px" />
+      <col width="168px" />
+      <col width="182px" />
+		</colgroup>
+		<tbody>
+			<tr>
+				<th class="first">공급가액</th>
+				<td>38,470</td>
+				<th>작성일자</th>
+				<td>2023년 6월 3일</td>
+			</tr>
+			<tr>
+				<th class="first">세액</th>
+				<td>3,847</td>
+				<th>공급자</th>
+				<td class="lsK">SK Telecom(주)</td>
+			</tr>
+			<tr>
+				<th class="first ">공급받는자 등록번호</th>
+				<td>214-02-31047</td>
+				<th>공급자 등록번호</th>
+				<td>104-81-37225</td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="tableCommentT1">
+		* 본 양식은 부가세법 시행령 제 68조 9항에 의해 관할 세무서장에게 신고한 전자세금계산서입니다. (부가가치세 대상금액만 표기)
+	</div>	
+</div>	
+<!-- // 세금계산서 -->
+<!-- 세금계산서 발행내역 -->
+<div bookmark="세금계산서 발행내역" bklevel="1" />
+<div class="h3">
+	<div class="taL"><p>세금계산서 발행내역</p></div>
+	<div class="taR">[ 공급받는자 등록번호 : 214-02-31047 ]</div>
+</div>
+<div class="tableRow08">
+	<table>
+		<colgroup>
+      <col width="175px" />
+      <col width="175px" />
+      <col width="175px" />
+      <col width="175px" />
+		</colgroup>
+		<thead>
+			<tr>
+				<th class="first">발행일자</th>
+				<th>공급가액</th>
+				<th>세액</th>
+				<th>합계금액</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="first">2023년 1월 3일</td>
+				<td class="taR">61,369</td>
+				<td class="taR">6,137</td>
+				<td class="taR">67,506</td>
+			</tr>
+			<tr>
+				<td class="first">2023년 2월 3일</td>
+				<td class="taR">88,239</td>
+				<td class="taR">8,824</td>
+				<td class="taR">97,063</td>
+			</tr>
+			<tr>
+				<td class="first">2023년 3월 3일</td>
+				<td class="taR">57,690</td>
+				<td class="taR">5,768</td>
+				<td class="taR">63,458</td>
+			</tr>
+			<tr>
+				<td class="first">2023년 4월 3일</td>
+				<td class="taR">42,313</td>
+				<td class="taR">4,231</td>
+				<td class="taR">46,544</td>
+			</tr>
+			<tr>
+				<td class="first">2023년 5월 3일</td>
+				<td class="taR">41,270</td>
+				<td class="taR">4,127</td>
+				<td class="taR">45,397</td>
+			</tr>
+		
+		</tbody>
+	</table>
+	<div class="tableComment">
+		* 본 세금계산서 발행내역은 SK텔레콤(104-81-37225)에서 발행된 세금계산서 내역으로 부가가치세 세무 신고시 참고 할 수 있습니다.<br/>
+		* 신규가입 및 해지가 발생한 경우 해당내역은 당월에 반영되지 않으며, 단말기 관련 세금계산서는 구입처로 문의해 주십시오.
+	</div>
+</div>
+<!-- // 세금계산서 발행내역 -->
+              
+                                        
+                		<!-- 고객님을 위한 맞춤 안내 -->
+<div bookmark="고객님을 위한 맞춤 안내" bklevel="1" />
+<div class="h3">
+	<p>고객님을 위한 맞춤 안내</p>
+</div>
+<div class="divBox01">
+  
+                              	
+     	    
+	    
+           	     		
+                            
+                	<p class="caseTitle01">
+		■ 단말기할부금(분할상환금) 상세내역
+	</p>
+	<div class="tableRow09">
+		<table>
+			<colgroup>
+        <col width="113px" />
+        <col width="61px" />
+        <col width="104px" />
+        <col width="61px" />
+        <col width="104px" />
+        <col width="61px" />
+        <col width="104px" />
+			</colgroup>
+			<thead>
+				<tr>
+					<th rowspan="2" class="first">전화번호</th>
+					<th colspan="2">총 단말기 할부금</th>
+					<th colspan="2">이번달 금액</th>
+					<th colspan="2">남은 금액</th>
+				</tr>
+				<tr>
+					<th>개월</th>
+					<th>금액</th>
+					<th>개월</th>
+					<th>금액</th>
+					<th>개월</th>
+					<th>금액</th>
+				</tr>			
+			</thead>
+			<tbody>
+                                      				<tr id="rs_noti_row">
+					<td id="t1" class="first">010-**27-6642</td>
+					<td id="t2" >24</td>
+					<td id="t3" class="taR">1,529,856</td>
+					<td id="t4">9</td>
+					<td id="t5" class="taR">63,740</td>
+					<td id="t7" >16</td>
+					<td id="t8" class="taR">1,001,436</td>
+				</tr>
+         
+        <!--//T렌탈 종료 안내-->
+                                             </tbody>
+		    </table>
+		    <div class="tableComment">
+			    * 단말기할부금은 일할청구로 총 할부회차와 남은 할부회차가 상이할 수 있으며, 분할납부 이외에 일시 및 일부상환도 가능합니다.<br/>
+          * 총 단말기 할부금/이번달 금액/남은 금액은 할부이자(분할상환수수료)가 포함된 금액이며, 분할상환대금(단말대금+분할상환수수료)이 
+          <br/>&nbsp;&nbsp;매월 동일 금액으로 청구되는 균등분할상환형입니다.
+			              		    </div>
+	    </div>
+	                       	
+     	    
+	    
+           	     		
+                            
+          	<p class="caseTitle01">
+		■ 예상 해지금액
+	</p>
+	<div class="tableRow09">
+		<table>
+		                                                         
+                                                                                                                                 
+                           
+                           
+                           
+                           
+                                                      
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                                                                                                                     
+      			<colgroup>
+        <col width="140px" />
+        <col width="104px" />
+        <col width="364px" />
+			</colgroup>
+			<thead>
+				<tr>
+					<th class="first">구분</th>
+					<th>금액</th>
+					<th>약정기간</th>
+				</tr>
+			</thead>
+			<tbody>
+    				<tr id="rs_noti_row">
+					<td id="t1" class="first">남은 단말기할부금</td>
+					<td id="t2" class="taR">959,760</td>
+					<td id="t3"></td>
+				</tr>
+    
+        <!--//T렌탈 종료 안내-->
+                              	
+     	    
+	    
+           	     		
+                            
+     				<tr id="rs_noti_row">
+					<td id="t1" class="first">약정위약금</td>
+					<td id="t2" class="taR">392,010</td>
+					<td id="t3">2022. 8. 23. ~ 2024. 8. 22.</td>
+				</tr>
+    
+        <!--//T렌탈 종료 안내-->
+                              	
+     	    
+	    
+           	     		
+                            
+     				<tr id="rs_noti_row">
+					<td id="t1" class="first">합계</td>
+					<td id="t2" class="taR">1,351,770</td>
+					<td id="t3"></td>
+				</tr>
+    
+        <!--//T렌탈 종료 안내-->
+                                   
+    </tbody>
+		</table>
+		
+		<div class="tableComment">
+			* 2023년 5월 31일 기준으로 작성된 서비스 해지 시 예상되는  금액입니다. 
+            			
+             			  <br/>* 약정위약금 : T지원금약정, 약정위약금2, 승계약정에 대한 위약금.
+						
+			         <br/>* 예상해지금액에 대한 자세한 내용은 고객센터에 문의하시기 바랍니다.
+    </div>
+	</div>
+		     	
+     	    
+	    
+           	     		
+                                                               
+                                      <div class="caseText">
+                               
+        							                <p id="t1" class="caseTitle">■ 골드번호 추첨행사 응모 안내</p>
+                  
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">이동전화 골드번호 추첨행사 접수를 진행하오니, T world 다이렉트(shop.tworld.co.kr) 또는 가까운 대리점에서</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">응모하세요. (응모기간 : 2023년 6월 26일 ~ 7월 9일 (2주간))</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                </div>
+                                                       
+                                      <div class="caseText">
+                               
+        							                <p id="t1" class="caseTitle">■ 이용중인 요금제 : 베이직플러스</p>
+                  
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">- 월정액 : 59,000원(부가세포함)</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">- 기본제공 : 집전화·이동전화 무제한, 영상/부가통화 300분, 데이터 24GB, 문자 기본제공</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">- 초과 시 : 음성 1.98원/초, 영상 3.3원/초, SMS 22원/건</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                </div>
+                                                       
+                                      <div class="caseText">
+                               
+        							                <p id="t1" class="caseTitle">■ T끼리 온가족 할인제도 가입연수/할인율 안내</p>
+                  
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">- 개인 가입연수 29년 / 가족 합산 가입연수 70년 / 월정액 할인율 30%</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                </div>
+                                                       
+                                      <div class="caseText">
+                               
+        							                <p id="t1" class="caseTitle">■ 복지 감면 안내</p>
+                  
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">장애인, 국가 유공자, 기초 생활 수급자, 차상위 계층, 기초 연금 수급자 등 복지 감면 자격이 확인된 고객님은 감면</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">혜택을 받으실 수 있습니다. 가까운 T 월드 매장이나 고객센터(114), 동 행정 복지 센터로 문의 및 신청해 주시기</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">바랍니다. 또한 휴대폰에서 1523번을 누르면 자격 확인 및 감면 신청을 할 수 있으니 많이 이용해 주시기 바랍니다.</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">(과학기술정보통신부)</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                </div>
+                                                       
+                                      <div class="caseText">
+                               
+        							                <p id="t1" class="caseTitle">■ 보이스 피싱 주의 안내</p>
+                  
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">공공기관, 금융기관, 수사기관은 고객에게 송금, 개인정보, 금융정보를 요구하지 않습니다. 해당 기관을 사칭하여</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">세금환급, 카드값 연체, 출석요구 등의 이유로 송금, 개인정보, 금융정보 등을 요구하는 보이스 피싱에 주의하시기</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">바랍니다.</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">* T 월드 홈페이지 > 고객 지원 > 화면 아래 '이용자 피해 예방 센터'에서 예방법과 최신 피해 사례를 확인하실 수</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">있습니다. 이용에 참고해 주시기 바랍니다.</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                </div>
+                                                       
+                                      <div class="caseText">
+                               
+        							                <p id="t1" class="caseTitle">■ 이중 납부 주의 안내</p>
+                  
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">은행/카드 자동납부 인출기간에 다른 방법(대리점방문 납부/입금전용계좌 입금)으로 납부할 경우 이중으로 결제될 수</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">있습니다. 해당 기간에는 반드시 자동납부 결제통장으로 입금하시거나, 납부 전에 카드사로 승인 여부를 확인하시기</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                                	
+     	    
+	    
+           	     		
+                                
+                              
+              
+                   <p class="case01">바랍니다.</p>
+                 
+        <!--//T렌탈 종료 안내-->
+                    	
+    
+     	    
+    
+                                             </div>
+       
+</div>
+<!-- 고객님을 위한 맞춤 안내 -->
+<!-- 자주찾는 문의 이메일 접수 -->
+<div class="payBoxdiv">
+	<!-- 자주찾는 문의 -->
+	<a href="http://www.tworld.co.kr/tglink.jsp?urlname=ebill_010" target="_blank">
+		<div class="payBoxIn02">
+			<div class="payBox01">
+				<div class="textTL">
+					<div class="payCon">
+						<div class="payImg">
+							<img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/02.gif_bg/02.gif_bg.gif" width="32px" height="32px" />
+						</div>
+						<div class="h4 textT04">
+							자주찾는 문의
+						</div>
+					</div>
+					<p>불편한 점이나 궁금하신 사항은<br />
+					자주 찾는 문의를 통해 빠르게 해결해 보세요!</p>
+				</div>
+				<div class="textTR01">
+					>
+				</div>
+			</div>
+		</div>
+	</a>
+	<!--//자주찾는 문의-->
+	<!--이메일 문의접수-->
+	<div class="payBoxIn03">
+		<a  href="http://www.tworld.co.kr/tglink.jsp?urlname=ebill_011" target="_blank">
+			<div class="payBox01">
+				<div class="textTL">
+					<div class="payCon">
+						<div class="payImg">
+							<img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/02.gif_bg/03.gif_bg.gif" width="32px" height="32px" />
+						</div>
+						<div class="h4 textT04">
+							이메일 문의접수
+						</div>
+					</div>
+					<p>궁금하신 사항을 이메일로 문의해 주시면<br />
+					신속하게 해결해드리겠습니다. </p>
+				</div>
+				<div class="textTR01">
+					>
+				</div>
+			</div>
+		</a>
+	</div>
+	<!--//자주찾는 문의-->
+</div>
+<!-- // 자주찾는 문의 이메일 접수 -->
+    <!-- 로밍 청구서 -->
+     <!-- // 로밍 청구서 -->
+<!--footer-->
+<div class="footer">
+	<div class="footerL">
+		<img src="https://emailwebcloudprd.sktelecom.com/uk2/bill/cois/202307/images/footer_03.gif" width="108px" height="44px" />
+	</div>
+	<div class="footerR">
+		<p>
+		서울특별시 중구 을지로 65 (을지로2가) │ 사업자등록번호 : 104-81-37225<br />
+		<span class="fCB">고객센터</span> 휴대폰114(무료), 080-011-6000(무료), 1599-0011(유료)<br />
+		<span class="fCB">모바일 T 월드</span> App Store > 'T world' 다운로드 │ <span class="fCB">온라인 T 월드</span> <a href="http://www.tworld.co.kr" target="_blank">www.tworld.co.kr</a>
+		</p>
+	</div>
+</div>
+<!--//footer-->
+<!-- // 상세내역 -->
+</body>
+</html>
